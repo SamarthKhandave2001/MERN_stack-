@@ -1,1 +1,2 @@
 Html Notes:
+HTML: Hyper Text Markup Language.
