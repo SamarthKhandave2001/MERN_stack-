@@ -1,2 +1,3 @@
 Html Notes:
 HTML: Hyper Text Markup Language.
+Metadata : Information of files
