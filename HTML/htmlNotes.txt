@@ -2,3 +2,4 @@ Html Notes:
 HTML: Hyper Text Markup Language.
 Metadata : Information of files
 <h1> - Head Tag
+//
