@@ -2,4 +2,4 @@ Html Notes:
 HTML: Hyper Text Markup Language.
 Metadata : Information of files
 <h1> - Head Tag
-//
+in html there are 6 levels of headings.
