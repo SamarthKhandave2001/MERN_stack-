@@ -3,3 +3,7 @@ HTML: Hyper Text Markup Language.
 Metadata : Information of files
 <h1> - Head Tag
 in html there are 6 levels of headings.
+
+block level element - Goes from left to right
+Inline element - Goes within the line
+In html div is consider as a container.
