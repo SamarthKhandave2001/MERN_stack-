@@ -1,1 +1,2 @@
 Inline styling - inline styling means witin the line.
+class and id are more powefull in css.
