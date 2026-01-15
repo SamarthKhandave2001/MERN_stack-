@@ -1,3 +1,4 @@
 Inline styling - inline styling means witin the line.
 class and id are more powefull in css.
 Flexbox : Flex box is a thing which allows you postion at certain element  postion on web page.
+Selectors: Selectors is the ability to select any element on the webpage.
