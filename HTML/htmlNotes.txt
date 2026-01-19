@@ -7,3 +7,41 @@ in html there are 6 levels of headings.
 block level element - Goes from left to right
 Inline element - Goes within the line
 In html div is consider as a container.
+
+Normal notes addig in general.
+All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+The <!DOCTYPE> Declaration
+The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+
+It must only appear once, at the top of the page (before any HTML tags).
+
+The <!DOCTYPE> declaration is not case sensitive.
+
+The <!DOCTYPE> declaration for HTML5 is:
+
+
+The HTML document itself begins with <html> and ends with </html>.
+
+HTML headings are defined with the <h1> to <h6> tags.
+
+<h1> defines the most important heading. <h6> defines the least important heading: 
+
+The HTML element is everything from the start tag to the end tag:
+
+<tagname>Content goes here...</tagname>
+Examples of some HTML elements:
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+The <html> element is the root element and it defines the whole HTML document.
+
+It has a start tag <html> and an end tag </html>.
+
+Then, inside the <html> element there is a <body> element:
+
+The <body> element defines the document's body.
+
+It has a start tag <body> and an end tag </body>.
+
+Then, inside the <body> element there are two other elements: <h1> and <p>:
