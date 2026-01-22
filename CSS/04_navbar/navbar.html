@@ -13,6 +13,60 @@
         background-color:#1a1a1a;
         color: #fff;
     }
+    .navbar-container {
+        margin-bottom: 40px;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+    .nav1{
+    
+        background-color: #eaeaea;
+        padding: 10px;
+    }
+    .nav1 ul{
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav1 li{
+        display: inline;
+    
+    }
+    .nav1 a{
+        text-decoration: none;
+        color: #202020;
+        padding: 5px 15px;
+
+    } 
+
+    .nav1 a::after{
+        content: "";
+        position: absolute;
+       
+        height:2px;
+         width:100px;
+        bottom:0;
+        left:0;
+        background-color: #0a65c7;
+        transition: transform 0.3s ease-in-out;
+
+
+    }
+
+    .nav1 a:hover{
+        border-bottom: 2px solid #254bf6;
+    }
+    .nav1 .login-btn{
+        background-color: #254bf6;
+        color: #fff;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }  
 </style>
 
 </head>
