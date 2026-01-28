@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid Master Class Demo</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin:0;
+        padding:20px;
+        background-color: #f0f0f0;
+    }
+    h1,h2{
+       color: #333; 
+    }
+    .container{
+        background-color: #fff;
+        border: 2px solid #333;
+        margin-top: 20px;
+        padding: 10px;
+        max-width: 1200px;
+    }
+    .box{
+        background-color: white;
+        display: block;
+    }
+    .box:nth-child(odd){
+        background-color: red;
+    }
+</style>
+<body>
+    <h1> CSS Grid Master Demo</h1>
+    <div class="container">
+        <h2>1. Basic Gird</h2>
+        <div class="grid-container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4 </div>
+        </div>
+    </div>
+</body>
+</html>
