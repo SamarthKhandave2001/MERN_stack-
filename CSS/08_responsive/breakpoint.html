@@ -24,10 +24,23 @@
             font-size:24px;
             background-color: #7f7f7f;
         }
-        @media (max-width:600px) {
-         .responsive-div{   background-color: #3498db;
-         }
-        }
+    @media (max-width: 600px) {
+    body {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start; /* ADD THIS */
+    }
+
+    .responsive-div {   
+        background-color: #e12636;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .responsive-div {
+        background-color: #2ecc71;
+    }
+}
     </style>
 </head>
 <body>
