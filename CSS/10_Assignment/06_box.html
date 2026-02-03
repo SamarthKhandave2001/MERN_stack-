@@ -1,0 +1,51 @@
+<!-- Positions In CSS
+Task: Create a layout where three elements are positioned using static, relative, and absolute positioning. Each element should be clearly distinguishable with different background colors.
+
+Instructions:
+
+Create a container div with the class name parent-container.
+
+Inside the container, create three div elements:
+
+The first element should have the class name static-box and be positioned normally in the document flow without any top/bottom/left/right.
+
+The second element should have the class name relative-box and be positioned 50px to the right and 50px down from its normal position.
+
+The third element should have the class name absolute-box and be positioned 30px from the top and 30px from the left of the container.
+
+Apply background colors to each element to make their positions clear. -->
+
+
+<style>
+.parent-container {
+  position: relative;
+}
+
+.static-box {
+  background-color: lightblue;
+}
+
+.relative-box {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  background-color: lightgreen;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: lightcoral;
+}
+</style>
+</head>
+
+<body>
+  <div class="parent-container">
+    <div class="static-box">Static Box</div>
+    <div class="relative-box">Relative Box</div>
+    <div class="absolute-box">Absolute Box</div>
+  </div>
+</body>
+</html>
