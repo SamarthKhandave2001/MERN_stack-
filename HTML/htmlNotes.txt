@@ -49,4 +49,5 @@ Then, inside the <body> element there are two other elements: <h1> and <p>:
 The <!DOCTYPE html> declaration defines this document to be HTML5
 The <html> element is the root element of an HTML page
 The lang attribute  defines the language of the document
+The charset attribute defines the character set used in the document
 The <meta> element contains meta information about the document
