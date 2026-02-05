@@ -52,3 +52,5 @@ The lang attribute  defines the language of the document
 The charset attribute defines the character set used in the document
 The <meta> element contains meta information about the document
 The <body> element contains the visible page content
+The <h1> element defines a large heading
+The <p> element defines a paragraph
