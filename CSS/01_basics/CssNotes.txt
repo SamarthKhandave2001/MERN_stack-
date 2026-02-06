@@ -6,3 +6,5 @@ Selectors: Selectors is the ability to select any element on the webpage.
 Inline element: Inline element don't consume it's own space
  
 Block element: Block level element takes full width from left to right
+
+Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
