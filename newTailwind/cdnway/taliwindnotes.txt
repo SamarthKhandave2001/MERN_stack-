@@ -35,3 +35,7 @@ Extending themes
 Adding plugins
 
 command to run tailwind- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+What is Purge in Tailwind?
+
+Removes unused CSS from production build to reduce file size.
