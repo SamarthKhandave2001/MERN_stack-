@@ -7,3 +7,15 @@ What does “utility-first” mean?
 Instead of writing custom CSS classes, you use small utility classes like:
 
 <div class="bg-blue-500 text-white p-4 rounded-lg"></div>
+
+What are the advantages of Tailwind?
+
+Faster development
+
+No context switching between HTML & CSS
+
+Highly customizable
+
+Small production build (with Purge)
+
+Responsive design built-in
