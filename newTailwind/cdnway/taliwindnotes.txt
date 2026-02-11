@@ -39,3 +39,6 @@ command to run tailwind- npx tailwindcss -i ./src/input.css -o ./src/output.css 
 What is Purge in Tailwind?
 
 Removes unused CSS from production build to reduce file size.
+How do you customize colors in Tailwind?
+
+Inside tailwind.config.js using extend.
