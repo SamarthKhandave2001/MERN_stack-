@@ -19,3 +19,17 @@ Highly customizable
 Small production build (with Purge)
 
 Responsive design built-in
+
+What is Tailwind configuration file?
+
+tailwind.config.js
+
+Used for:
+
+Custom colors
+
+Custom spacing
+
+Extending themes
+
+Adding plugins
