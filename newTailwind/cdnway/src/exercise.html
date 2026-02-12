@@ -47,3 +47,27 @@ Add the following Tailwind CSS CDN link to the <head> section:
 Ensure that both the parent and child divs have the specified id attributes for the tests to pass.
 
 -->
+<html>
+<!--Add your HTML code here-->
+<head>
+    <meta charset="UTF-8">
+    <title>Center Div Using Flexbox</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Parent Container -->
+    <div id="parent" class="flex items-center justify-center h-screen bg-gray-100">
+        
+        <!-- Child Container -->
+        <div id="child" class="bg-white p-8 rounded-lg shadow-md text-center">
+            <h1 class="text-2xl font-bold mb-4">Centered Div</h1>
+            <p>This div is perfectly centered both vertically and horizontally using Tailwind Flexbox utilities.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
