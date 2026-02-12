@@ -266,3 +266,24 @@ Include the Tailwind CSS CDN link in the <head>:
 
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient Button</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+    <button 
+        class="bg-gradient-to-r from-blue-500 to-pink-500 
+               hover:from-pink-500 hover:to-blue-500 
+               text-white py-2 px-4 shadow-md rounded">
+        Gradient Button
+    </button>
+
+</body>
+</html>
