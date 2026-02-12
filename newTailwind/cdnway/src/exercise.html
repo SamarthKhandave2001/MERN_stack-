@@ -1,0 +1,324 @@
+<!--
+Style A Button with Tailwind CSS
+Intructions:
+
+Create a button using a <button> tag with bg-blue-500.
+
+Add classes to style the button with padding, background color, rounded corners, and a hover effect that changes its color to bg-blue-700.
+
+Add the Tailwind CSS CDN in head tag:
+
+<head><link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"></head>
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Button</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+    <button class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+        Click Me
+    </button>
+
+</body>
+
+<<!--
+2- Center a Div Using Flexbox
+Instructions:
+
+Create a div (parent container) and give it the id="parent". This div should contain another div (child container) with id="child".
+
+Use Tailwind CSS's flexbox utilities to center the child div inside the parent both vertically and horizontally within the viewport.
+
+The content inside the child div should consist of:
+
+A heading (<h1>) with the class text-2xl.
+
+A paragraph (<p>) explaining that the div is centered.
+
+Add the following Tailwind CSS CDN link to the <head> section:
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+Ensure that both the parent and child divs have the specified id attributes for the tests to pass.
+
+-->
+<html>
+<!--Add your HTML code here-->
+<head>
+    <meta charset="UTF-8">
+    <title>Center Div Using Flexbox</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Parent Container -->
+    <div id="parent" class="flex items-center justify-center h-screen bg-gray-100">
+        
+        <!-- Child Container -->
+        <div id="child" class="bg-white p-8 rounded-lg shadow-md text-center">
+            <h1 class="text-2xl font-bold mb-4">Centered Div</h1>
+            <p>This div is perfectly centered both vertically and horizontally using Tailwind Flexbox utilities.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<<!--
+3- Create a Basic Grid Layout
+Instructions:
+
+Create a div container to hold the grid.
+
+Inside the container, add four child div elements.
+
+Use Tailwind CSS’s grid utilities to create a 2x2 grid layout.
+
+Add a unique background color to each div to differentiate the grid cells.
+
+Include the Tailwind CSS CDN link inside the  <head>:
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+-->
+
+<html>
+<!--Add your HTML code here-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Grid Layout</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+    <!-- Grid Container -->
+    <div class="grid grid-cols-2 gap-4 w-80">
+        
+        <!-- Grid Item 1 -->
+        <div class="bg-red-400 p-6 text-white text-center rounded">
+            Item 1
+        </div>
+
+        <!-- Grid Item 2 -->
+        <div class="bg-blue-400 p-6 text-white text-center rounded">
+            Item 2
+        </div>
+
+        <!-- Grid Item 3 -->
+        <div class="bg-green-400 p-6 text-white text-center rounded">
+            Item 3
+        </div>
+
+        <!-- Grid Item 4 -->
+        <div class="bg-yellow-400 p-6 text-white text-center rounded">
+            Item 4
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<!--
+4- Apply Box Shadow to a Card Using Tailwind CSS
+Instructions:
+
+Create a div that represents a card element.
+
+Apply Tailwind CSS box shadow utilities to give the card a subtle shadow effect.
+
+Inside the card, include:
+
+A heading (<h2>) for the card title.
+
+A paragraph (<p>) for some card content.
+
+The card should have padding of 24px, a white background color, and rounded corners with lg class to enhance the design.
+
+Add the Tailwind CSS CDN link in the <head> of your HTML:
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> 
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Box Shadow Card</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link hr<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="shadow-lg p-6 bg-white rounded-lg max-w-sm">
+        <h2>Card Title</h2>
+        <p>This is a card component with a box shadow. It's styled using Tailwind CSS.</p>
+    </div>
+</body>
+</html>f="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="shadow bg-white p-6 rounded-lg">
+        <h2>Card Title</h2>
+        <p>This is a simple card with box shadow, padding, background color, and rounded corners.</p>
+    </div>
+
+</body>
+<!--
+5:Create a Donut Shape Using Tailwind CSS
+Instructions:
+
+Create a div element to represent the donut shape.
+
+Use Tailwind CSS utilities to:
+
+Make the div circular by applying equal width and height with w-40 h-40 or other sizes.
+
+Use the rounded-full class to give the element a circular shape.
+
+Apply a background color to the outer donut using classes like bg-red-500.
+
+Make the div circular by applying equal width and height with w-16 h-16 or other sizes.
+
+Use the rounded-full class to give the element a circular shape.
+
+Apply a background color to the inner circle using classes like bg-white.
+
+Add the Tailwind CSS CDN link in the <head> of your HTML:
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donut Shape</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen">
+
+    <!-- Outer Circle -->
+    <div class="w-40 h-40 bg-red-500 rounded-full flex items-center justify-center">
+        
+        <!-- Inner Circle -->
+        <div class="w-16 h-16 bg-white rounded-full"></div>
+    
+    </div>
+
+</body>
+</html>
+
+<!--
+6- Add Blur Effect to an Image
+Instructions:
+
+Create an img element to display an image.
+
+Use Tailwind CSS’s filter and blur utilities to apply a blur effect to the image.
+
+Add some padding and a border to enhance the visibility of the image.
+
+Include the Tailwind CSS CDN link inside the <head>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <img src="https://via.placeholder.com/400" alt="Placeholder" class="filter blur-md p-4 border border-gray-300 rounded">
+</body>
+</html>
+
+
+<!--
+7: Create a Gradient Colored Button Using Tailwind CSS
+Instructions:
+
+Create a button element in your HTML.
+
+Apply Tailwind CSS gradient utilities to create a gradient background for the button. It must go from bg-blue-500 to bg-pink-500 (left to right).
+
+Style the button with appropriate 8px vertical padding, 16px horizontal padding, white text color, and medium box shadow.
+
+Add hover effects to enhance the button’s appearance on mouseover. On hover, It must go from bg-pink-500 to bg-blue-500.
+
+Include the Tailwind CSS CDN link in the <head>:
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient Button</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+    <button 
+        class="bg-gradient-to-r from-blue-500 to-pink-500 
+               hover:from-pink-500 hover:to-blue-500 
+               text-white py-2 px-4 shadow-md rounded">
+        Gradient Button
+    </button>
+
+</body>
+</html>
+
+<!--
+8:Create a Rotating Square Box Using Tailwind CSS
+Instructions:
+
+Create a div element to represent the square box.
+
+Apply Tailwind CSS utilities to make the div a square with defined dimensions and background color.
+
+Width and Height must be w-32 and h-32
+
+Must have blue-500 background
+
+Must have 16px border width
+
+Must have gray-800 border
+
+Apply tailwind class for the continuous rotation animation to the square box.
+
+Add some padding and border to the box for better visibility.
+
+Include the Tailwind CSS CDN link in the <head>:
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="w-32 h-32 bg-blue-500 animate-spin border-4 border-gray-800"></div>
+</body>
+</html>
