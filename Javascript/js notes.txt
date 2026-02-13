@@ -1,2 +1,3 @@
 What is v8?
 v8 is google's open source high performance java script and webAssembly engine.
+Written in C++.  It is used in chrome and in node.js
