@@ -3,3 +3,4 @@ v8 is google's open source high performance java script and webAssembly engine.
 Written in C++.  It is used in chrome and in node.js
 
 Javascript - we can use it for  Front end web app, backend, desktop app, mobile app.
+Semi colon is optional in java script.
