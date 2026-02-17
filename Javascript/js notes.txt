@@ -7,4 +7,4 @@ Semi colon is optional in java script.
 basically java script is used for FrontEnd.
 JIT - Just In Time Complier.
 
-In the earlier days, where was JavaScript code primarily executed?
+In the earlier days, where was JavaScript code primarily executed? -- In the Browser Console
