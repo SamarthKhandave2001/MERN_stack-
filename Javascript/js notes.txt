@@ -5,4 +5,6 @@ Written in C++.  It is used in chrome and in node.js
 Javascript - we can use it for  Front end web app, backend, desktop app, mobile app.
 Semi colon is optional in java script.
 basically java script is used for FrontEnd.
-JIT - Just In Time Complier
+JIT - Just In Time Complier.
+
+In the earlier days, where was JavaScript code primarily executed? -- In the Browser Console
