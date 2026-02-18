@@ -24,3 +24,9 @@ console.log(myscore); // Output: 101
 let credits = 56;
 credits --;
 console.log(credits); // Output: 55
+
+//comparison operator
+let a = 5;
+let b = 10;
+console.log(a > b); // Output: false
+console.log(a == b); // Output: false
