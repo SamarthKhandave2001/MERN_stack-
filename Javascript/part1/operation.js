@@ -17,3 +17,10 @@ console.log(division); // Output:
 
 let reminder = 10 % 3;
 console.log(reminder); // Output: 1
+
+let myscore = 100;
+myscore ++;
+console.log(myscore); // Output: 101
+let credits = 56;
+credits --;
+console.log(credits); // Output: 55
