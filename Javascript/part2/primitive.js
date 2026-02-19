@@ -18,3 +18,13 @@ console.log(firstname); //undefined
 //eg of null
 let lastname = null;
 console.log(lastname); //null
+
+//String
+let myString = "hello";
+let myStringOne = 'Hola';
+let username = 'sam'
+
+let oldGreet = myString + "happy"
+console.log(oldGreet); //hellohappy
+
+let greetMeassage = `hello ${username}`;
