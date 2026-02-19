@@ -18,3 +18,21 @@ console.log(firstname); //undefined
 //eg of null
 let lastname = null;
 console.log(lastname); //null
+
+//String
+let myString = "hello";
+let myStringOne = 'Hola';
+let username = 'sam'
+
+let oldGreet = myString + "happy"
+console.log(oldGreet); //hellohappy
+
+let greetMeassage = `hello ${username}`;
+
+
+//Symbol
+let sm1 = Symbol()   //define the symbol
+let sm2 = Symbol()   //define another symbol        
+
+
+console.log(sm1 === sm2); //false because each symbol is unique
