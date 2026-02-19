@@ -2,3 +2,4 @@ Primitive data type.
 String, Boolean, Number, Null, Undefined, Symbol
 
 Non-Primitive:
+array, functions, objects
