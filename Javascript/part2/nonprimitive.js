@@ -1,7 +1,7 @@
 //Non-Primitive:
 //array, functions, objects
 
-let obj = {}
+let userName = {fiestname: "Sam", isLoggedin: true}; //object
 
-console.log(typeof obj); //object
-console.log(obj); //{}
+console.log(typeof userName); //object
+console.log(userName); //{}
