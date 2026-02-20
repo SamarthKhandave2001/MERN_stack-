@@ -19,3 +19,6 @@ let today = new Date();
 
 //Array
 // Array is a collection of things.
+
+let heros = ["a", "b", "c", "d"];
+console.log(heros); //['a', 'b', 'c', 'd']
