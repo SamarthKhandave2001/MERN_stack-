@@ -13,3 +13,9 @@ console.log(userName["first name"]); //Sam
 
 console.log(userName.lastName); //Appa
 
+let today = new Date();
+//console.log(today);
+
+
+//Array
+// Array is a collection of things.
