@@ -12,4 +12,43 @@ else{
 
 // Checking if a string equal to another string:
 
-let 
+let  str1 = "Hello";
+let str2 = "Hello";
+if(str1 === str2){
+    console.log("Strings are equal");
+}   
+else{
+    console.log("Strings are not equal");
+}
+
+
+//checking if a variable is a number or not:
+let score = 44
+
+if(typeof score === 'number'){
+    console.log("score is a number");
+}
+else{
+    console.log("score is not a number");
+}
+
+
+//checking if a boolean variable is true or false:
+let isTeaReay = false;
+{
+    if(isTeaReay){
+        console.log("Tea is ready");
+    }   else{
+        console.log("Tea is not ready");
+    }
+}
+
+// Checkinf if array is empty or not:
+let items = [];
+console.log(items.length);
+if(items.length===0){
+    console.log("Array is empty");
+}
+else{
+    console.log("Array is not empty");
+}
