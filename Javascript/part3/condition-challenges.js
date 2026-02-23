@@ -20,3 +20,14 @@ if(str1 === str2){
 else{
     console.log("Strings are not equal");
 }
+
+
+//checking if a variable is a number or not:
+let score = 44
+
+if(typeof score === 'number'){
+    console.log("score is a number");
+}
+else{
+    console.log("score is not a number");
+}
