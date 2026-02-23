@@ -12,4 +12,11 @@ else{
 
 // Checking if a string equal to another string:
 
-let 
+let  str1 = "Hello";
+let str2 = "Hello";
+if(str1 === str2){
+    console.log("Strings are equal");
+}   
+else{
+    console.log("Strings are not equal");
+}
