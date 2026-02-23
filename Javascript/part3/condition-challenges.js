@@ -9,3 +9,7 @@ if(num1 > num2){
 else{
     console.log("num2 is greater");
 }
+
+// Checking if a string equal to another string:
+
+let 
