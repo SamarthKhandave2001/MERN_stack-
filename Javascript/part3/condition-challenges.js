@@ -31,3 +31,14 @@ if(typeof score === 'number'){
 else{
     console.log("score is not a number");
 }
+
+
+//checking if a boolean variable is true or false:
+let isTeaReay = false;
+{
+    if(isTeaReay){
+        console.log("Tea is ready");
+    }   else{
+        console.log("Tea is not ready");
+    }
+}
