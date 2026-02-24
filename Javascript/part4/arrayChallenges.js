@@ -13,3 +13,13 @@ Access the third element in the arrya and store it in avariable named 'favourite
 let cities = ["London", "Paris", "New York", "Tokyo"];
 let favouriteCity = cities[2];
 console.log(favouriteCity);
+
+/*
+3. You have an array named 'teaTypes' containing "Green", "Black", "Oolong", and "White".
+Change the second element of the array to "Jasmine tea".*/
+let teaTypes = ["Green", "Black", "Oolong", "White"];
+teaTypes[1] = "Jasmine tea";
+console.log(teaTypes);
+
+/*
+4. Declare an array named 'citiesVisited' contaning "Mumbai" and "Sydney" Add "Berlin" to the array using 'push' method.*/
