@@ -61,3 +61,6 @@ let europeanCities = ["Paris", "Rome"];
 let asianCities = ["Tokyo","Bangkok"]
 let worldCities = europeanCities.concat(asianCities);
 console.log(worldCities);
+
+/* 9. You have an array named 'teaMenu' containing "Masal Chai","oolang Tea","Green Tea", and "earl grey".
+Find the length of an array and store it in a variable named 'menuLength'.*/
