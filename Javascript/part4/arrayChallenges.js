@@ -68,3 +68,6 @@ Find the length of an array and store it in a variable named 'menuLength'.*/
 let teaMenu = ["Masal chai", "oolong tea", "Green Tea", "earl grey"];
 let menuLength = teaMenu.length;
 console.log(menuLength);
+
+/* 10. You have an array name d 'cityBucketList' containing "kyoto","London","CapeTown" and "Vancouver".
+Check if "London" is in the array and store the result in a variable named 'isLondonInlist'.*/
