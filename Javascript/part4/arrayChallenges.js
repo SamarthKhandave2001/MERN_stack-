@@ -56,3 +56,8 @@ console.log(hardCopyCities);
 /*
 8. You have two arrays: 'europeanCities' containing "paris" and "rome" and 'asianCities' containing "Tokyo" and "bangkok".
 Merge these two arrays into a new array named 'wordCities'.*/ 
+
+let europeanCities = ["Paris", "Rome"];
+let asianCities = ["Tokyo","Bangkok"]
+let worldCities = europeanCities.concat(asianCities);
+console.log(worldCities);
