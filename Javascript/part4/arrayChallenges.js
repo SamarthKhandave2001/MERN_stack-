@@ -45,3 +45,9 @@ console.log(popularTeas);
 
 /*
 7. You haave an array named 'topCities' containing "Berlin", "Simgapore" and "NewYor" create a hard copy of this array named 'hardCopyCities' */
+
+let topCities = ["Berlin", "Singapore", "New York"];
+//let hardCopyCities = [...topCities];
+let hardCopyCities = topCities.slice();  //another way to create a hard copy of an array
+topCities.pop();
+console.log(hardCopyCities);
