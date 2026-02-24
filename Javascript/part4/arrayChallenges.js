@@ -42,3 +42,6 @@ let softCopyTeas = popularTeas;
 popularTeas.pop();
 console.log(softCopyTeas);
 console.log(popularTeas);
+
+/*
+7. You haave an array named 'topCities' containing "Berlin", "Simgapore" and "NewYor" create a hard copy of this array named 'hardCopyCities' */
