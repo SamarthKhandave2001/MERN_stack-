@@ -9,3 +9,7 @@ console.log(firstTea);
 
 /* 2.Declare an array named 'cities' containing "London", "Paris", "New York", and "Tokyo".
 Access the third element in the arrya and store it in avariable named 'favouriteCity'.*/
+
+let cities = ["London", "Paris", "New York", "Tokyo"];
+let favouriteCity = cities[2];
+console.log(favouriteCity);
