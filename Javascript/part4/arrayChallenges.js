@@ -23,3 +23,14 @@ console.log(teaTypes);
 
 /*
 4. Declare an array named 'citiesVisited' contaning "Mumbai" and "Sydney" Add "Berlin" to the array using 'push' method.*/
+
+let citiesVisited = ["Mumbai", "Sydney"];
+citiesVisited.push("Berlin");
+console.log(citiesVisited);
+
+/* 5. You have an array named 'teaOrders' with 'chai', "iced tea", and "earl grey".
+Remove the last element using ht epop method and store it in a variable named 'lastOrder'.*/
+
+let teaOrders = ['chai', "iced tea", "earl grey"];
+let lastOrder = teaOrders.pop();
+console.log(lastOrder);
