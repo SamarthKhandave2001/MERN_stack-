@@ -64,3 +64,7 @@ console.log(worldCities);
 
 /* 9. You have an array named 'teaMenu' containing "Masal Chai","oolang Tea","Green Tea", and "earl grey".
 Find the length of an array and store it in a variable named 'menuLength'.*/
+
+let teaMenu = ["Masal chai", "oolong tea", "Green Tea", "earl grey"];
+let menuLength = teaMenu.length;
+console.log(menuLength);
