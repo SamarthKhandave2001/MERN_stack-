@@ -51,3 +51,8 @@ let topCities = ["Berlin", "Singapore", "New York"];
 let hardCopyCities = topCities.slice();  //another way to create a hard copy of an array
 topCities.pop();
 console.log(hardCopyCities);
+
+
+/*
+8. You have two arrays: 'europeanCities' containing "paris" and "rome" and 'asianCities' containing "Tokyo" and "bangkok".
+Merge these two arrays into a new array named 'wordCities'.*/ 
