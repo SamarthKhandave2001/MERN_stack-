@@ -34,3 +34,5 @@ Remove the last element using ht epop method and store it in a variable named 'l
 let teaOrders = ['chai', "iced tea", "earl grey"];
 let lastOrder = teaOrders.pop();
 console.log(lastOrder);
+
+//*6. You have an array named 'popularTeas' containing "gren tea", "oolang tea" and "chai". Create a copy of this array named 'softCopyTeas'.question 66
