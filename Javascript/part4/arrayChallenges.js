@@ -35,4 +35,10 @@ let teaOrders = ['chai', "iced tea", "earl grey"];
 let lastOrder = teaOrders.pop();
 console.log(lastOrder);
 
-//*6. You have an array named 'popularTeas' containing "gren tea", "oolang tea" and "chai". Create a copy of this array named 'softCopyTeas'.question 66
+/*6. You have an array named 'popularTeas' containing "gren tea", "oolang tea" and "chai". Create a copy of this array named 'softCopyTeas'.question 6.*/
+
+let popularTeas = ["green tea", "oolong tea", "chai"];
+let softCopyTeas = popularTeas;
+popularTeas.pop();
+console.log(softCopyTeas);
+console.log(popularTeas);
