@@ -13,7 +13,12 @@ console.log(arr);
 ANS : [1,2,3] 
 
 How can you combine two arrays in JavaScript?
+ANS: arr1.concat(arr2)
 
+Which of the following will correctly reverse an array?
+
+let arr = [1, 2, 3, 4, 5];
+ANS: arr.reverse().
 
 
 
