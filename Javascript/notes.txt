@@ -25,3 +25,8 @@ ANS: arr.reverse().
 Which method returns a shallow copy of a portion of an array?
 ANS: Slice()
 
+What will the following code output?
+
+let arr = [1, 2, 3, 4];
+console.log(arr.indexOf(3));
+ANS:2
