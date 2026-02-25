@@ -5,7 +5,11 @@ What does the pop() method do in JavaScript arrays?
 ANS: Remove element from the end of an array.
 Which method is used to remove the first element of an array?
 ANS: Shift()
-
+What is the output of the following code?
+let arr = [1, 2, 3];
+arr.push(4);
+arr.pop();
+console.log(arr);
 
 
 
