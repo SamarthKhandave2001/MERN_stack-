@@ -30,3 +30,5 @@ What will the following code output?
 let arr = [1, 2, 3, 4];
 console.log(arr.indexOf(3));
 ANS:2
+
+Loops: What are the task we need to do again and again in that case we use the loop.
