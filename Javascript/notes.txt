@@ -12,5 +12,9 @@ arr.pop();
 console.log(arr);
 ANS : [1,2,3] 
 
+How can you combine two arrays in JavaScript?
+
+
+
 
 
