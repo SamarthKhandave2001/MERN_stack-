@@ -5,7 +5,7 @@ let i = 0;
 
 while (i <= 5) {
   // sum += i; another method 
-  sum = sum + 1;
+  sum = sum + i;
   i++;
 }
 console.log(sum);
