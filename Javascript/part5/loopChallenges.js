@@ -19,3 +19,5 @@ while (j >0){
 
 }
 console.log(countdown);
+
+/*3. Write a 'do while' loop that prompts a user to enter their favourite tea type until they enter 'stop'. store each tea type in an array named 'teaCollection'.*/
