@@ -46,3 +46,10 @@ while (k <= 3){
 console.log(total);
 
 /* 5. Write a 'for' loop that multiplies each elelemt in the array '[2,4,6]' by 2 and stores the result in a new array named 'multipliedNumberes'.*/
+let numbers = [2,4,6];
+let multipliedNumbers = [];
+for (let m = 0; m < numbers.length; m++){
+takeNumber = numbers[m] *2;
+multipliedNumbers.push(takeNumber);
+}
+console.log(multipliedNumbers);
