@@ -32,3 +32,5 @@ do{
 } while (tea !== "stop");
 
 Code will work in browser environment, but not in node.js environment.*/
+
+/*4. Write a 'do while' loop that adds numbers from1 to 3 and stores the resukt in the variable 'total'.*/
