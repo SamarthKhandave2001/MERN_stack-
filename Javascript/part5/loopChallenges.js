@@ -55,3 +55,11 @@ multipliedNumbers.push(takeNumber);
 console.log(multipliedNumbers);
 
 /* 6. Write a 'for' loop that lists all the cities in the array ["paris","new York","Tokyo","London"] and stores them in a new array named 'cityList'.*/
+
+let cities = ["paris","new York","Tokyo","London"];
+
+let cityList = [];
+for (let c = 0; c < cities.length; c++){
+  cityList.push(cities[c]);
+}
+console.log(cityList);
