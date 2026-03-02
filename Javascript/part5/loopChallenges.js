@@ -44,3 +44,5 @@ k++;
 while (k <= 3){
 }
 console.log(total);
+
+/* 5. Write a 'for' loop that multiplies each elelemt in the array '[2,4,6]' by 2 and stores the result in a new array named 'multipliedNumberes'.*/
