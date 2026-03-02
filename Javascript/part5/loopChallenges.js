@@ -34,3 +34,13 @@ do{
 Code will work in browser environment, but not in node.js environment.*/
 
 /*4. Write a 'do while' loop that adds numbers from1 to 3 and stores the resukt in the variable 'total'.*/
+
+let total =0;
+let k =1;
+do{
+total +=k;
+k++;
+}
+while (k <= 3){
+}
+console.log(total);
