@@ -32,3 +32,34 @@ do{
 } while (tea !== "stop");
 
 Code will work in browser environment, but not in node.js environment.*/
+
+/*4. Write a 'do while' loop that adds numbers from1 to 3 and stores the resukt in the variable 'total'.*/
+
+let total =0;
+let k =1;
+do{
+total +=k;
+k++;
+}
+while (k <= 3){
+}
+console.log(total);
+
+/* 5. Write a 'for' loop that multiplies each elelemt in the array '[2,4,6]' by 2 and stores the result in a new array named 'multipliedNumberes'.*/
+let numbers = [2,4,6];
+let multipliedNumbers = [];
+for (let m = 0; m < numbers.length; m++){
+takeNumber = numbers[m] *2;
+multipliedNumbers.push(takeNumber);
+}
+console.log(multipliedNumbers);
+
+/* 6. Write a 'for' loop that lists all the cities in the array ["paris","new York","Tokyo","London"] and stores them in a new array named 'cityList'.*/
+
+let cities = ["paris","new York","Tokyo","London"];
+
+let cityList = [];
+for (let c = 0; c < cities.length; c++){
+  cityList.push(cities[c]);
+}
+console.log(cityList);
