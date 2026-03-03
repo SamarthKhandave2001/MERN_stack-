@@ -43,3 +43,13 @@ for (let tea of teaTypes){
     }    preferredTeas.push(tea);
 }           
 console.log(preferredTeas);
+
+/*5 new loop 'for-in'. Use a 'for-in' loop through an object containing city populations. Stop the loop whent the population of "Berlin" is found and store all prevoius cities populations in a new object named cityPopulations".
+
+let citiesPopulation ={
+"London": 8900000,
+"New York": 8400000,
+"Paris": 2200000,
+"Berlin": 3600000
+};
+*/
