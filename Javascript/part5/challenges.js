@@ -34,3 +34,12 @@ for (let number of numbers){
 console.log(smallNumbers);
 
 /* 4. Use a 'for-of' loop to iterate throught the array ["chai",greentea,"black tea"] and skip "greentea". Store the other tea types in an array named 'preferredTeas'.*/
+
+let teaTypes = ["chai","greentea","black tea"];
+let preferredTeas = []; 
+for (let tea of teaTypes){
+    if (tea === "greentea"){
+        continue;
+    }    preferredTeas.push(tea);
+}           
+console.log(preferredTeas);
