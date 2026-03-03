@@ -10,3 +10,4 @@ for(let i =0; i< teas.length; i++)
         selectedTeas.push(teas[i]);
     }
 console.log(selectedTeas);
+/* Write a 'for' loop that loops through the arrya ["London","New York","Paris","Berlin"] and skipes "Paris". Store the other cities in annew array named 'VistiedCities.*/
