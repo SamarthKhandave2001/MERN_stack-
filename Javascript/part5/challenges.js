@@ -20,3 +20,5 @@ for (let i = 0; i < cities.length; i++){
     }   visitedCities.push(cities[i]);              
 }
 console.log(visitedCities);
+
+/* 3. Use a for loop to itearate through the array [1,2,3,4,5] and stop when the number '4' is found. Store the numbers before '4' in an array named 'small numbers'.*/
