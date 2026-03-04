@@ -5,3 +5,5 @@ function makeTea(typeOfTea){
 let teaOrder = makeTea("green tea");
 console.log(teaOrder);
  
+/*2. Create a function named 'orderTea' that takes one parameter, 'teaType',. Inside this function, Create another function named 'confirmOrder' that returns a message like "order confirmed for chai."
+call 'confirmOrder' from within 'orderTea' and return the result*/
