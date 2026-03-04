@@ -2,6 +2,6 @@
 function makeTea(typeOfTea){
     return `Making ${typeOfTea}`;
 }
-let greet = makeTea("green tea");
-console.log(greet);
+let teaOrder = makeTea("green tea");
+console.log(teaOrder);
  
