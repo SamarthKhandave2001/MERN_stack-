@@ -19,3 +19,8 @@ let orderConfirmation = orderTea("chai.");
 console.log(orderConfirmation);
 
 /*3. Write an arrow function named 'calculateTotal' that takes two parameters: 'price' and 'quantitiy'. The function should return the total cost by mutiplying the 'price' and 'quantity'. Store the result in an variable named 'totalCost'.*/
+
+const calculateTotal = (price, quantity) => price * quantity;
+let totalCost = calculateTotal(10, 5);
+console.log(totalCost);
+
