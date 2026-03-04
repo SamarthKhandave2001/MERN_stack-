@@ -24,3 +24,5 @@ const calculateTotal = (price, quantity) => price * quantity;
 let totalCost = calculateTotal(10, 5);
 console.log(totalCost);
 
+
+
