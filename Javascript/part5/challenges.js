@@ -90,3 +90,5 @@ for (let i = 0; i < numArray.length; i++){
     }    doubledNumbers.push(numArray[i] * 2);
 }           
 console.log(doubledNumbers);
+
+/*8. Use a 'for-of' loop to iterate through the array ["chai","green tea","black tea","jasmin tea","herbal tea"] and stop when the length of the current tea name is greater than 10. Store the teas iterate over in an array named 'shortNamedTeas'.*/
