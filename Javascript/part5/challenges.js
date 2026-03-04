@@ -68,3 +68,13 @@ for(const city in citiesPopulation){
 console.log(cityPopulations);
 
 /* 6. Write a 'forEach' loop that iterates through the array ["chai","greentea","black tea"] and stop the loop when it finds "greentea". Store the other tea types in an array named 'availableTeas'.*/
+
+let teaCollection = ["earl grey", "greentea", "black tea","oolong tea"];
+let availableTeas = [];
+teaCollection.forEach((tea) => {
+    if (tea === "greentea") {
+        return;
+    }
+    availableTeas.push(tea);
+});
+console.log(availableTeas);
