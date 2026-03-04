@@ -53,3 +53,16 @@ let citiesPopulation ={
 "Berlin": 3600000
 };
 */
+let citiesPopulation ={
+    "London": 8900000,
+    "New York": 8400000,   
+    "Paris": 2200000,
+    "Berlin": 3600000
+};
+let cityPopulations = {};
+for(const city in citiesPopulation){
+    if(citiesPopulation[city] === 3600000){
+        break;
+    }    cityPopulations[city] = citiesPopulation[city];
+}       
+console.log(cityPopulations);
