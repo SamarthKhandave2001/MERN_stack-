@@ -53,3 +53,50 @@ let citiesPopulation ={
 "Berlin": 3600000
 };
 */
+let citiesPopulation ={
+    "London": 8900000,
+    "New York": 8400000,   
+    "Paris": 2200000,
+    "Berlin": 3600000
+};
+let cityPopulations = {};
+for(const city in citiesPopulation){
+    if(citiesPopulation[city] === 3600000){
+        break;
+    }    cityPopulations[city] = citiesPopulation[city];
+}       
+console.log(cityPopulations);
+
+/* 6. Write a 'forEach' loop that iterates through the array ["chai","greentea","black tea"] and stop the loop when it finds "greentea". Store the other tea types in an array named 'availableTeas'.*/
+
+let teaCollection = ["earl grey", "greentea", "black tea","oolong tea"];
+let availableTeas = [];
+teaCollection.forEach((tea) => {
+    if (tea === "greentea") {
+        return;
+    }
+    availableTeas.push(tea);
+});
+console.log(availableTeas);
+
+/* 7. Write a 'for' loop that iterates through the array [2,5,7,9].
+Skip the value '7' and multiply the reat by 2. Store the result in a new array named 'doubledNumbers'.*/
+
+let numArray = [2,5,7,9];
+let doubledNumbers = [];
+for (let i = 0; i < numArray.length; i++){
+    if (numArray[i] === 7){
+        continue;
+    }    doubledNumbers.push(numArray[i] * 2);
+}           
+console.log(doubledNumbers);
+
+/*8. Use a 'for-of' loop to iterate through the array ["chai","green tea","black tea","jasmin tea","herbal tea"] and stop when the length of the current tea name is greater than 10. Store the teas iterate over in an array named 'shortNamedTeas'.*/
+let teaNames = ["chai","green tea","black tea","jasmin tea","herbal tea"];
+let shortNamedTeas = [];
+for (let tea of teaNames){
+    if (tea.length > 10){
+        break;
+    }    shortNamedTeas.push(tea);
+}   
+console.log(shortNamedTeas);
