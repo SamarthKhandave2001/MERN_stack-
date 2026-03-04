@@ -84,3 +84,9 @@ Skip the value '7' and multiply the reat by 2. Store the result in a new array n
 
 let numArray = [2,5,7,9];
 let doubledNumbers = [];
+for (let i = 0; i < numArray.length; i++){
+    if (numArray[i] === 7){
+        continue;
+    }    doubledNumbers.push(numArray[i] * 2);
+}           
+console.log(doubledNumbers);
