@@ -78,3 +78,9 @@ teaCollection.forEach((tea) => {
     availableTeas.push(tea);
 });
 console.log(availableTeas);
+
+/* 7. Write a 'for' loop that iterates through the array [2,5,7,9].
+Skip the value '7' and multiply the reat by 2. Store the result in a new array named 'doubledNumbers'.*/
+
+let numArray = [2,5,7,9];
+let doubledNumbers = [];
