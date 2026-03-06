@@ -26,5 +26,14 @@ console.log(totalCost);
 
 /*4. Write a function named 'processTeaOrder' that takes another function, 'maketea', as a parameter and cells it with the arugument 'earl grey'. Return the result of celling makeTea.*/
 
+function processTeaOrder(makeTea){
+    return makeTea("earl grey");
+}   
+let processedOrder = processTeaOrder(makeTea);
+console.log(processedOrder);
+
+/*5. Write a function named 'crateTeaMaker' that returns another function. The returned function should take one parameter. 'teaType', and return a message like 'Making green tea'.Store the returned function in a variable named 'teaMaker' and call it with 'green tea'.*/
+
+
 
 
