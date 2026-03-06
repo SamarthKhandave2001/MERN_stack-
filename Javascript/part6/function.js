@@ -24,5 +24,7 @@ const calculateTotal = (price, quantity) => price * quantity;
 let totalCost = calculateTotal(10, 5);
 console.log(totalCost);
 
+/*4. Write a function named 'processTeaOrder' that takes another function, 'maketea', as a parameter and cells it with the arugument 'earl grey'. Return the result of celling makeTea.*/
+
 
 
