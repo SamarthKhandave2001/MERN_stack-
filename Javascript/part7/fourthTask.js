@@ -16,3 +16,35 @@ Task 3: Count Vowels in a String
 Write a function countVowels(str) that returns the number of vowels (in both lower & uppercase) in the given string str.
 
 */
+function sumOfN(n) {
+  let sum = 0;
+
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+
+  return sum;
+}
+
+function printMultiplicationTable(n) {
+  let result = [];
+
+  for (let i = 1; i <= 10; i++) {
+    result.push(`${n} * ${i} = ${n * i}`);
+  }
+
+  return result;
+}
+
+function countVowels(str) {
+  let count = 0;
+  let vowels = "aeiouAEIOU";
+
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      count++;
+    }
+  }
+
+  return count;
+}
