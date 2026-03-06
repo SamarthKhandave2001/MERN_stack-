@@ -19,10 +19,3 @@ Increment
 Decrement
 
 Reminder */
-
-
-let a = 18;
-let b = 24;
-
-function add() {
-    const result = a + b;
