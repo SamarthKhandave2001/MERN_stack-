@@ -1,3 +1,3 @@
-function greet(){
-    console.log("Hello World");
+function Person(name,age){
+    
 }
