@@ -20,6 +20,7 @@ function Tea(type){
     this.describe = function(){
         return `This is a ${this.type} tea.`
     //If you want to access any type of property or method inside the constructor function then you need to use the this keyword
+    //"This" keyword refers to the current object that is being created by the constructor function.
     }
 
 
@@ -27,3 +28,18 @@ function Tea(type){
 
 let lemonTea = new Tea("Lemon");
 console.log(lemonTea.describe());
+
+
+function Animal(species){
+    this.species = species
+    this.describe = function(){
+        return `This is a ${this.species}.`
+    }   
+    
+    Animal.prototype.eat = function(){
+        return `The ${this.species} is eating.`
+    }
+}
+let dog = new Animal("Dog");
+console.log(dog.describe());
+console.log(dog.eat());
