@@ -8,3 +8,7 @@ let car = {
     }
 }   
 console.log(car.start());
+//new
+function Person(name,age){
+    
+}
