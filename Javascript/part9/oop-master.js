@@ -8,7 +8,12 @@ let car = {
     }
 }   
 console.log(car.start());
-//new
 function Person(name,age){
+    this.name = name;
+    this.age = age;
     
 }
+
+let john = new Person("John", 30);
+console.log(john.name);
+console.log(john.age);
