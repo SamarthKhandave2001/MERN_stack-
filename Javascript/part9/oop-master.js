@@ -26,5 +26,10 @@ function animal(type){
 
 animal.prototype.speak = function(){ return `The ${this.type} makes a sound.`; }
 
-let dog = new animal("dog");
-console.log(dog.speak());
+Array.prototype.sam = function(){
+    return `This is a custom method added to all arrays. ${this}`;
+
+}
+
+let myArr = [1, 2, 3];
+console.log(myArr.sam());
