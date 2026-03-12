@@ -18,7 +18,7 @@ let john = new Person("John", 30);
 console.log(john.name);
 console.log(john.age);
 
-
+//Prototype chain learn and read 
 function animal(type){
     this.type = type;
 
