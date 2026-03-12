@@ -13,3 +13,7 @@ function Person(name,age){
     this.age = age;
     
 }
+
+let john = new Person("John", 30);
+console.log(john.name);
+console.log(john.age);
