@@ -17,3 +17,14 @@ function Person(name,age){
 let john = new Person("John", 30);
 console.log(john.name);
 console.log(john.age);
+
+
+function animal(type){
+    this.type = type;
+
+}
+
+animal.prototype.speak = function(){ return `The ${this.type} makes a sound.`; }
+
+let dog = new animal("dog");
+console.log(dog.speak());
