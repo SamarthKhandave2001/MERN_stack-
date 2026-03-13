@@ -33,4 +33,5 @@ Array.prototype.sam = function(){
 
 let myArr = [1, 2, 3];
 console.log(myArr.sam());
-let myNewArray
+let myNewArray = [1,2,3,4,5];
+console.log(myNewArray.sam());
