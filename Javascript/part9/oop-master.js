@@ -37,14 +37,14 @@ let myNewArray = [1,2,3,4,5];
 console.log(myNewArray.sam());
 
 
-class Vechile{
+class Vechile{   //class creation 
 constructor(make,model){
-    this.make = make
-    this.model = model
+    this.make = make;
+    this.model = model;
 
 }
 start(){
-    
+    return `${this.model} is car from  ${this.make}`;
 }
 
 }
