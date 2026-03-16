@@ -43,4 +43,8 @@ constructor(make,model){
     this.model = model
 
 }
+start(){
+    
+}
+
 }
