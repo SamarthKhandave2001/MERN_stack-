@@ -47,4 +47,15 @@ start(){
     return `${this.model} is car from  ${this.make}`;
 }
 
+
+
+//Inheritance 
+start() {
+    return `${this,model} is a car from ${this.make}`;
+}
+}
+
+
+class Car extends Vechile{
+    
 }
