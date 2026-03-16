@@ -57,5 +57,12 @@ start() {
 
 
 class Car extends Vechile{
-    
+    driver(){
+        return `${this.make} : This is an inheritacne exmaple.`
+    }
 }
+
+let myCar = new car("Toyota", "corola")
+
+console.log(myCar.start());
+console.log(myCar.make());
