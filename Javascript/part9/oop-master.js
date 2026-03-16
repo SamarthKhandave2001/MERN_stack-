@@ -38,5 +38,7 @@ console.log(myNewArray.sam());
 
 
 class Vechile{
-
+constructor(make,model){
+    
+}
 }
