@@ -67,14 +67,14 @@ console.log(myCar.driver());
 class BankAccount{
   #balance = 0;
 
-  deposit(amout){
+  deposit(amount){
     this.#balance += amount
     return this.#balance;
   }
   getBalance(){
-    return `$ {this.#balance}`
+    return `$  ${this.#balance}`
   }
 }
 
 let  account = new BankAccount()
-console.log(account.balance);
+console.log(account.getBalance());
