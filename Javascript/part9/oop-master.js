@@ -78,3 +78,27 @@ class BankAccount{
 
 let  account = new BankAccount()
 console.log(account.getBalance());
+
+//Abstraction 
+// Abstarction hides the complex implemantaion details
+
+class coffeMacine{
+  start(){
+    //call DB
+    return `Starting the machine...`
+  }
+  brewCoffee(){
+    //complex calcualtion
+    return  `Brewing Coffee`
+  }
+  pressStartButton(){
+    let msgone = this.start()
+    let msgtwo = this.brewCoffee()
+    return `${msgone} + ${msgtwo}`;
+  }
+}
+
+let myMachine = new coffeMacine()
+console.log(myMachine.start());
+console.log(myMachine.brewCoffee());
+console.log(myMachine.pressStartButton())
