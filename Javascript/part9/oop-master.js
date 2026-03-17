@@ -132,3 +132,13 @@ class Calculator{
 }
 //let miniCal = new Calculator()
 console.log(Calculator.add(2,3))
+
+//Getters and Setters
+
+class Employee{
+  constructor(name, salary){
+    this.name = name;
+    this._salary = salary;
+    
+  }
+}
