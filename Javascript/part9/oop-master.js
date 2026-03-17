@@ -78,3 +78,12 @@ class BankAccount{
 
 let  account = new BankAccount()
 console.log(account.getBalance());
+
+//Abstraction 
+// Abstarction hides the complex implemantaion details
+
+class coffeMacine{
+  start(){
+    //call DB
+  }
+}
