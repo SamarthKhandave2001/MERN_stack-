@@ -91,8 +91,14 @@ class coffeMacine{
     //complex calcualtion
     return  `Brewing Coffee`
   }
+  pressStartButton(){
+    let msgone = this.start()
+    let msgtwo = this.brewCoffee()
+    return `${msgone} + ${msgtwo}`;
+  }
 }
 
 let myMachine = new coffeMacine()
 console.log(myMachine.start());
 console.log(myMachine.brewCoffee());
+console.log(myMachine.pressStartButton())
