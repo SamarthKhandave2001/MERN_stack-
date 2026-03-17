@@ -59,3 +59,5 @@ let myCar = new Car("Toyota", "Corolla");
 
 console.log(myCar.start());
 console.log(myCar.driver());
+
+//Encapsulation
