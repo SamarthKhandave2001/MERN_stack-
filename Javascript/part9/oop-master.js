@@ -61,3 +61,5 @@ console.log(myCar.start());
 console.log(myCar.driver());
 
 //Encapsulation
+
+//Encapsulation  means restrict the access of the direct data.
