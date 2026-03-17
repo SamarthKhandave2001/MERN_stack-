@@ -85,5 +85,14 @@ console.log(account.getBalance());
 class coffeMacine{
   start(){
     //call DB
+    return `Starting the machine...`
+  }
+  brewCoffee(){
+    //complex calcualtion
+    return  `Brewing Coffee`
   }
 }
+
+let myMachine = new coffeMacine()
+console.log(myMachine.start());
+console.log(myMachine.brewCoffee());
