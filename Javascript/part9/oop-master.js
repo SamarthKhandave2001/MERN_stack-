@@ -101,4 +101,34 @@ class coffeMacine{
 let myMachine = new coffeMacine()
 console.log(myMachine.start());
 console.log(myMachine.brewCoffee());
-console.log(myMachine.pressStartButton())
+console.log(myMachine.pressStartButton()) 
+
+// Polymorphism
+// It describe ability of something to have or to be displayed in more than one form
+
+class Bird{
+  fly(){
+    return ` Flying..`
+  }
+}
+
+class Penguin extends Bird {
+  fly(){
+    return`Penguins can't fly`;
+  }
+}
+
+let bird = new Bird()
+let penguin = new Penguin()
+console.log(bird.fly());
+console.log(penguin.fly());
+
+// static method  static mhod only call by class itself
+class Calculator{
+  static add(a,b){
+    return a + b
+  }
+
+}
+//let miniCal = new Calculator()
+console.log(Calculator.add(2,3))
