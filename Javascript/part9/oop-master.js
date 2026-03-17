@@ -155,13 +155,13 @@ class Employee {
     if (value < 0) {
       console.log("Invalid Salary");
     } else {
-      this.#salary = value;   // ✅ FIXED
+      this.#salary = value;   
     }
   }
 }
 
-const emp = new Employee("Samarth", -50000);
+const emp = new Employee("Samarth", 50000);
 
 console.log(emp.salary);   // getter
-emp.salary = -60000;        // setter
+emp.salary = 60000;        // setter
 console.log(emp.salary);
