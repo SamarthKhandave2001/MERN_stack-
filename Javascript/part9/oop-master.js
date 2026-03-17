@@ -101,4 +101,7 @@ class coffeMacine{
 let myMachine = new coffeMacine()
 console.log(myMachine.start());
 console.log(myMachine.brewCoffee());
-console.log(myMachine.pressStartButton())
+console.log(myMachine.pressStartButton()) 
+
+// Polymorphism
+// It describe ability of something to have or to be displayed in more than one form
