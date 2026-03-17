@@ -63,3 +63,17 @@ console.log(myCar.driver());
 //Encapsulation
 
 //Encapsulation  means restrict the access of the direct data.
+
+class BankAccount{
+  #balance = 0;
+
+  deposit(amout){
+    this.#balance += amount
+    return this.#balance;
+  }
+  getBalance(){
+    return `$ {this.#balance}`
+  }
+}
+
+let 
