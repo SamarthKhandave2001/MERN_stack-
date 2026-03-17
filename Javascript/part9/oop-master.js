@@ -108,7 +108,7 @@ console.log(myMachine.pressStartButton())
 
 class Bird{
   fly(){
-    return ` Fyling..`
+    return ` Flying..`
   }
 }
 
