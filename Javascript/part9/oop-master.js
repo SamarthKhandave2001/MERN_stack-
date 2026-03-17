@@ -76,4 +76,5 @@ class BankAccount{
   }
 }
 
-let 
+let  account = new BankAccount()
+console.log(account.balance);
