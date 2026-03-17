@@ -122,3 +122,13 @@ let bird = new Bird()
 let penguin = new Penguin()
 console.log(bird.fly());
 console.log(penguin.fly());
+
+// static method  static mhod only call by class itself
+class Calculator{
+  static add(a,b){
+    return a + b
+  }
+
+}
+//let miniCal = new Calculator()
+console.log(Calculator.add(2,3))
