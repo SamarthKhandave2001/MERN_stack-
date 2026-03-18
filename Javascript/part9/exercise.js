@@ -36,3 +36,23 @@ Create a functional constructor Person that takes name and age as parameters. Ad
 Task 2: Handle Errors
 
 Modify the Person constructor to throw an error if the age is not a positive number. */
+
+function Person(name, age) {
+    if (typeof age !== "number" || age <= 0) {
+        throw new Error("Age must be a positive number");
+    }
+
+    this.name = name;
+    this.age = age;
+
+    this.greet = function () {
+        return `Hello, my name is ${this.name}`;
+    };
+}
+
+// ✅ Valid Example
+const p1 = new Person("Samarth", 22);
+console.log(p1.greet());
+
+// ❌ Invalid Example
+const p2 = new Person("John", -5); // Throws Error
