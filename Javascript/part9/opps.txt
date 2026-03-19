@@ -4,3 +4,9 @@ Encapsulation
 Inheritance 
 Polymorphism
 Abstraction.
+
+Object Oriented Programming (OOP) solves these problems by combining data and the functions that operate on it into a single unit called an object. This approach has following main features
+
+Encapsulation ensures that one team can change data representation and algorithms without causing other team's code change.
+Inheritance ensures code reuse.
+Polymorphism allows objects to behave differently using the same interface.
