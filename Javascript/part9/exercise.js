@@ -56,3 +56,5 @@ console.log(p1.greet());
 
 // ❌ Invalid Example
 const p2 = new Person("John", -5); // Throws Error
+
+/*3*/
