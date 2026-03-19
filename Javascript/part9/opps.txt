@@ -15,3 +15,6 @@ In JavaScript, an object is a collection of data (properties) and actions (metho
 
 Properties hold values like strings, numbers, or even other objects.
 Methods are functions inside the object that define what it can do.
+
+Classes
+In JavaScript, a class is a blueprint for creating objects with specific properties and methods. A class itself doesn’t hold values, it describes what an object should have and do. You create actual objects from a class using the new keyword.
