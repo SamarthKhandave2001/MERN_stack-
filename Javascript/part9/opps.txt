@@ -10,3 +10,8 @@ Object Oriented Programming (OOP) solves these problems by combining data and th
 Encapsulation ensures that one team can change data representation and algorithms without causing other team's code change.
 Inheritance ensures code reuse.
 Polymorphism allows objects to behave differently using the same interface.
+Objects
+In JavaScript, an object is a collection of data (properties) and actions (methods) stored as key–value pairs.
+
+Properties hold values like strings, numbers, or even other objects.
+Methods are functions inside the object that define what it can do.
