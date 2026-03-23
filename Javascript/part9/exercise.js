@@ -74,3 +74,51 @@ Extend the Vehicle class from the previous task to include a method move() that 
 Task 3: Static Methods in Classes
 
 Add a static method isVehicle(obj) to the Vehicle class that checks if a given object is an instance of Vehicle. The method should return true if the object is a Vehicle or a subclass of Vehicle, and false otherwise.*/
+
+// Parent Class
+class Vehicle {
+  constructor(make, model) {
+    this.make = make;
+    this.model = model;
+  }
+
+  // Task 1: Method
+  getDetails() {
+    return `Make: ${this.make}, Model: ${this.model}`;
+  }
+
+  // Task 2: Method to be overridden
+  move() {
+    return "The vehicle is moving";
+  }
+
+  // Task 3: Static Method
+  static isVehicle(obj) {
+    return obj instanceof Vehicle;
+  }
+}
+
+// Child Class (Inheritance)
+class Car extends Vehicle {
+  
+  // Task 1: Additional method
+  startEngine() {
+    return "Engine started";
+  }
+
+  // Task 2: Method Overriding
+  move() {
+    return "The car is driving";
+  }
+}
+
+// Testing the implementation
+const myCar = new Car("Toyota", "Fortuner");
+
+console.log(myCar.getDetails());     // Make: Toyota, Model: Fortuner
+console.log(myCar.startEngine());    // Engine started
+console.log(myCar.move());           // The car is driving
+
+// Static method test
+console.log(Vehicle.isVehicle(myCar)); // true
+console.log(Vehicle.isVehicle({}));    // false
