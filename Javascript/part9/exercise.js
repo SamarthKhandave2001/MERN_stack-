@@ -135,3 +135,100 @@ Task 2: Polymorphism with Method Overriding
 
 Create a class Shape with a method area() that returns 0. Create two subclasses Circle and Rectangle that override the area() method to calculate the area of a circle and a rectangle, respectively.
 */
+// =======================
+// Task 1: BankAccount (Encapsulation)
+// =======================
+class BankAccount {
+  constructor(balance = 0) {
+    this._balance = balance;
+  }
+
+  // Getter
+  get balance() {
+    return this._balance;
+  }
+
+  // Setter
+  set balance(amount) {
+    if (amount < 0) {
+      throw new Error("Balance cannot be negative");
+    }
+    this._balance = amount;
+  }
+
+  // Deposit
+  deposit(amount) {
+    if (amount <= 0) {
+      throw new Error("Deposit amount must be positive");
+    }
+    this._balance += amount;
+  }
+
+  // Withdraw
+  withdraw(amount) {
+    if (amount <= 0) {
+      throw new Error("Invalid amount");
+    }
+    if (amount > this._balance) {
+      throw new Error("Insufficient funds"); // IMPORTANT: match test
+    }
+    this._balance -= amount;
+  }
+}
+
+// =======================
+// Task 2: Polymorphism
+// =======================
+
+// Base Class
+class Shape {
+  area() {
+    return 0;
+  }
+}
+
+// Circle Class
+class Circle extends Shape {
+  constructor(radius) {
+    super();
+    this.radius = radius;
+  }
+
+  area() {
+    return Math.PI * this.radius * this.radius;
+  }
+}
+
+// Rectangle Class
+class Rectangle extends Shape {
+  constructor(width, height) {
+    super();
+    this.width = width;
+    this.height = height;
+  }
+
+  area() {
+    return this.width * this.height;
+  }
+}
+
+// =======================
+// Example Usage (Optional)
+// =======================
+
+// BankAccount Test
+const acc = new BankAccount(1000);
+acc.deposit(500);
+acc.withdraw(200);
+console.log(acc.balance); // 1300
+
+// Shape Test
+const shapes = [
+  new Circle(5),
+  new Rectangle(4, 6),
+  new Shape()
+];
+
+shapes.forEach(shape => {
+  console.log(shape.area());
+});
