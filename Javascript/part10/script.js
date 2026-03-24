@@ -1,2 +1,3 @@
 console.log("Hello script")
-console.log(window)
+//console.log(window)
+console.log(document);
