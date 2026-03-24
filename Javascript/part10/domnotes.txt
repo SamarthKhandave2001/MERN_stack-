@@ -1,0 +1,2 @@
+under the dom we have elements.
+under the bom  we have screen, navigator and location
