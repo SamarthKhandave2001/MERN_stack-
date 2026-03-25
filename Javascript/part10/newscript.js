@@ -5,4 +5,5 @@ document.getElementById("changeTextButton")
     paragraph.textContent = "The paragraph is changed"
 })
 
+//example 2
 
