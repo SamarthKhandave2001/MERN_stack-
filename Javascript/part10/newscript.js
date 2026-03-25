@@ -7,3 +7,8 @@ document.getElementById("changeTextButton")
 
 //example 2
 
+document.getElementById("highlightFirstCity")
+.addEventListener('click',function(){
+  let citiesList = document.getElementById("citiesList")
+citiesList.firstElementChild.classList.add("highlight")
+})
