@@ -17,4 +17,6 @@ citiesList.firstElementChild.classList.add("highlight")
 document.getElementById("changeOrder").addEventListener('click', function(){
   let coffeeType= document.getElementById("coffeeType");
   coffeeType.textContent = "Expresso";
+  coffeeType.style.backgroundColor = "brown"
+  coffeeType.style.padding = "5px";
 })
