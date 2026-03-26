@@ -12,3 +12,9 @@ document.getElementById("highlightFirstCity")
   let citiesList = document.getElementById("citiesList")
 citiesList.firstElementChild.classList.add("highlight")
 })
+
+//example3
+document.getElementById("changeOrder").addEventListener('click', function(){
+  let coffeeType= document.getElementById("coffeeType");
+  coffeeType.textContent = "Expresso";
+})
