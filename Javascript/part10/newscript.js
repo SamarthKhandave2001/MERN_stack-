@@ -17,4 +17,23 @@ citiesList.firstElementChild.classList.add("highlight")
 document.getElementById("changeOrder").addEventListener('click', function(){
   let coffeeType= document.getElementById("coffeeType");
   coffeeType.textContent = "Expresso";
+  coffeeType.style.backgroundColor = "brown"
+  coffeeType.style.padding = "5px";
+})
+
+//example4
+
+document.getElementById("addNewItem").addEventListener('click', function(){
+ let newItem = document.createElement('li')
+
+newItem.textContent = "Eggs"
+
+document.getElementById("shoppingList").appendChild(newItem);
+})
+
+//example5
+
+document.getElementById("removeLastTask").addEventListener('click', function(){
+let taskList = document.getElementById("taskList");
+taskList.lastElementChild.remove();
 })
