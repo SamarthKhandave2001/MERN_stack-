@@ -38,7 +38,7 @@ let taskList = document.getElementById("taskList");
 taskList.lastElementChild.remove();
 })
 
-//exampl6
+//example6
 document.getElementById("clickMeButton").addEventListener('click', function(){
   alert("New Code")
 })
