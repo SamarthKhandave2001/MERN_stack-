@@ -42,3 +42,9 @@ taskList.lastElementChild.remove();
 document.getElementById("clickMeButton").addEventListener('click', function(){
   alert("New Code")
 })
+
+//example 7
+
+document.getElementById("teaList").addEventListener('click', function(){
+  
+})
