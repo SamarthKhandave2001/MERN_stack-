@@ -7,3 +7,5 @@ In dom we have two topics get the element and event listening
 
 we use # for the "id"
 . for the "classes"
+
+//check the call function
