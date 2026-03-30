@@ -61,3 +61,9 @@ console.log(feedback);
 
 document.getElementById("feedbackDisplay").textContent = `Feedback is: ${feedback}`;
 });
+
+
+//example 9 
+document.addEventListener('DOMContentLoaded', function(){
+  document.getElementById("domStatus").textContent = "DOM is fully loaded!";
+})
