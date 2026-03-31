@@ -5,3 +5,5 @@ function sayHello() {
 setTimeout(() => {
     sayHello();
 }, 2000);
+
+//event loop
