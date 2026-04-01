@@ -6,3 +6,4 @@ function outer(){
 }
 
 let increment = outer()
+console.log(increment()) // 5
