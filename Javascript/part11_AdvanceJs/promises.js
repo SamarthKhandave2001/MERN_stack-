@@ -1,5 +1,8 @@
 //Promises in javascript are used to handel asynchronous operations.
-//
+//A Promises is in one of these states:
+//1. Pending: Initial state, neither fulfilled nor rejected.
+//2. Fulfilled: The operation completed successfully.
+//3. Rejected: The operation failed.    
 
 
 
