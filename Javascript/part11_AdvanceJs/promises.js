@@ -22,7 +22,14 @@ function fetchData(){
 fetchData()
 .then((data) => {
     console.log(data);
+    return `sam`;
 })
+
+.then((value) => {
+    console.log(value);
+})
+
+
 .catch((error) => {
     console.error(error);
 });
