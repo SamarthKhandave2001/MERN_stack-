@@ -1,3 +1,8 @@
+//Promises in javascript are used to handel asynchronous operations.
+//
+
+
+
 function fetchData(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
