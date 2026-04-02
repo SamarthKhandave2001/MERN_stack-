@@ -19,5 +19,10 @@ function fetchData(){
     });
 }
 
-let response = fetchData();
-console.log(response); // Promise { <pending> }
+fetchData()
+.then((data) => {
+    console.log(data);
+})
+.catch((error) => {
+    console.error(error);
+});
