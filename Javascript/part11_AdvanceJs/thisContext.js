@@ -1,6 +1,6 @@
 const person= {
     name:"Sma",
-    greet
+    greet(){
+        console.log(`Hi I am ${this.name}`);
+    }
 }
-
-console.log(person.greet()) // Hello, I am Sma
