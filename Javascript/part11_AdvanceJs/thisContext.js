@@ -1,6 +1,13 @@
 const person= {
     name:"Sma",
-    greet
+    greet(){
+        console.log(`Hi I am ${this.name}`);
+    }
 }
 
-console.log(person.greet()) // Hello, I am Sma
+person.greet();
+const greetFunction= person.greet;
+person.greet()
+
+const boundGreet = person.greet.bind({name:"sam"});
+boundGreet();
