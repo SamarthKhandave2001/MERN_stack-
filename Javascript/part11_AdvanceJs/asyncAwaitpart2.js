@@ -11,7 +11,7 @@ function fetchPostData() {
 function fetchCommwentData() {
      return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("Post data fetched successfully!");
+            resolve("Comment data fetched successfully!");
         },3000);
     });
 }
