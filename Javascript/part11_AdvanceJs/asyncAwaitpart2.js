@@ -27,3 +27,5 @@ console.log(commentData);
         console.error("Error fetching data:", error);
     }
 }
+
+getBlogData();
