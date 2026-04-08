@@ -10,3 +10,51 @@ Task 2: Shape and Rectangle Inheritance
 Create a constructor function Shape that takes color as a parameter and has a method getColor() that returns the color.
 
 Create another constructor Rectangle that inherits from Shape and adds properties width and height. Add a method getArea() to Rectangle that returns the area of the rectangle.*/
+
+//Ansewer 
+
+// =======================
+// Task 1: Animal -> Dog
+// =======================
+
+function Animal() {}
+
+Animal.prototype.makeSound = function () {
+    return "Animal sound";
+};
+
+function Dog() {}
+
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+
+Dog.prototype.bark = function () {
+    return "Woof!";
+};
+
+
+// =======================
+// Task 2: Shape -> Rectangle
+// =======================
+
+function Shape(color) {
+    this.color = color;
+}
+
+Shape.prototype.getColor = function () {
+    return this.color;
+};
+
+// ✅ FIXED ORDER: width, height, color
+function Rectangle(width, height, color) {
+    Shape.call(this, color);
+    this.width = width;
+    this.height = height;
+}
+
+Rectangle.prototype = Object.create(Shape.prototype);
+Rectangle.prototype.constructor = Rectangle;
+
+Rectangle.prototype.getArea = function () {
+    return this.width * this.height;
+};
