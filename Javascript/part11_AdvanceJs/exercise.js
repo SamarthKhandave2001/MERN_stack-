@@ -20,3 +20,48 @@ Create a function fetchDataWithCallback(callback) that simulates fetching data a
 Once the data is “fetched”, it should invoke the provided callback function with "Fetched data" as an argument.
 
 */
+
+// Task 1
+function simulateAsyncTask() {
+    console.log("Task started");
+
+    setTimeout(() => {
+        console.log("Task finished");
+    }, 2000);
+}
+
+// Task 2
+function simulateMultipleTasks() {
+    console.log("Starting all tasks...");
+
+    setTimeout(() => {
+        console.log("Task 1 finished");
+    }, 1000);
+
+    setTimeout(() => {
+        console.log("Task 2 finished");
+    }, 2000);
+
+    setTimeout(() => {
+        console.log("Task 3 finished");
+    }, 3000);
+}
+
+// Task 3
+function fetchDataWithCallback(callback) {
+    console.log("Fetching data...");
+
+    setTimeout(() => {
+        callback("Fetched data");
+    }, 2000);
+}
+
+// Example callback
+function handleData(data) {
+    console.log("Received:", data);
+}
+
+// Function calls
+simulateAsyncTask();
+simulateMultipleTasks();
+fetchDataWithCallback(handleData);
