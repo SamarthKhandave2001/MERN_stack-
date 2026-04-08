@@ -82,3 +82,64 @@ Create a function rateLimiter(fn, limit) that returns a new function. The return
 Task 3: Memoization Function
 
 Write a function memoize(fn) that returns a memoized version of fn. The memoized function should cache the results of function calls, and return the cached result if the same inputs are provided again.*/
+
+// =======================
+// Task 1: Counter Closure
+// =======================
+function createCounter() {
+    let count = 0;
+
+    return function () {
+        count++;
+        return count;
+    };
+}
+
+
+// =======================
+// Task 2: Rate Limiter
+// =======================
+function rateLimiter(fn, limit) {
+    let lastCalled = 0;
+
+    return function (...args) {
+        const now = Date.now();
+
+        if (now - lastCalled < limit) {
+            return "Rate limit exceeded";
+        }
+
+        lastCalled = now;
+        return fn.apply(this, args);
+    };
+}
+
+
+// =======================
+// Task 3: Memoization
+// =======================
+function memoize(fn) {
+    const cache = {};
+
+    return function (...args) {
+        const key = JSON.stringify(args);
+
+        if (cache.hasOwnProperty(key)) {
+            return cache[key];
+        }
+
+        const result = fn.apply(this, args);
+        cache[key] = result;
+
+        return result;
+    };
+}
+
+
+// =======================
+// Example Usage (Optional)
+// =======================
+
+// Task 1 Test
+const counter = createCounter();
+console.log(counter()); // 1
