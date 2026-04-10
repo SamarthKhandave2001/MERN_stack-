@@ -8,3 +8,8 @@ basically java script is used for FrontEnd.
 JIT - Just In Time Complier.
 
 In the earlier days, where was JavaScript code primarily executed? -- In the Browser Console
+JavaScript is single-threaded
+Uses:
+Call Stack
+Web APIs
+Callback Queue
