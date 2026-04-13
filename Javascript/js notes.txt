@@ -13,7 +13,7 @@ Uses:
 Call Stack
 Web APIs
 Callback Queue
-
+//
 Memory Management
 Automatic (Garbage Collection)
 Removes unused objects from memory
