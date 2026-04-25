@@ -1,1 +1,3 @@
-git and git hub
+git and git hub are different 
+git is the software and git hub is the service.
+git is version control system track file for changes 
