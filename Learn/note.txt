@@ -2,5 +2,5 @@ git and git hub are different
 git is the software and git hub is the service.
 git is version control system track file for changes 
 git status 
-git init - one time per project 
+git init - one time per project - short command to intialize a project.
 .git - A hidden folder to keep histroy of all files and sub-folders
