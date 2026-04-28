@@ -5,3 +5,5 @@ git status
 git init - one time per project - short command to intialize a project.
 .git - A hidden folder to keep histroy of all files and sub-folders
 .gitignore - don't want to track some file, node module api key secret get template online patterns can be tricky 
+
+Git Brach
