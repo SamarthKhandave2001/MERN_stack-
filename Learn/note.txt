@@ -11,3 +11,5 @@ Git Brach -- A branch in Git is a lightweight, movable pointer to a commit. It a
 By default, Git has a branch called:
 
 main (or sometimes master)
+
+Git diff - informative command.
