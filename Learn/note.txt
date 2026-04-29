@@ -14,3 +14,4 @@ main (or sometimes master)
 
 Git diff - informative command.
 git stash temporarily saves your uncommitted changes so you can switch branches or work on something else without committing.
+git stash you can switch the branch.
