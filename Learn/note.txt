@@ -16,3 +16,4 @@ Git diff - informative command.
 git stash temporarily saves your uncommitted changes so you can switch branches or work on something else without committing.
 git stash you can switch the branch.
 git pop - bring back changes.
+git stash apply- apply changes and kept them in stash
