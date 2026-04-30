@@ -18,5 +18,6 @@ git stash you can switch the branch.
 git pop - bring back changes.
 git stash apply- apply changes and kept them in stash
 
-Rebase: Alternative to merging 
+Rebase: Alternative to merging   - Rebase is an alternative to merging; avoid running it on the main or master branch.
+
         clean up tool (clean up commits)
