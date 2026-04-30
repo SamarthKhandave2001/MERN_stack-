@@ -21,3 +21,6 @@ git stash apply- apply changes and kept them in stash
 Rebase: Alternative to merging   - Rebase is an alternative to merging; avoid running it on the main or master branch.
 
         clean up tool (clean up commits)
+
+Git is a software and github is a service to host git online 
+github -> collaboration + backup + opensource
