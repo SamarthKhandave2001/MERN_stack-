@@ -24,3 +24,5 @@ Rebase: Alternative to merging   - Rebase is an alternative to merging; avoid ru
 
 Git is a software and github is a service to host git online 
 github -> collaboration + backup + opensource
+
+Setup SSH keys to connect with github, github uses SSh to allow you to push code password based code push is jot allowed 
