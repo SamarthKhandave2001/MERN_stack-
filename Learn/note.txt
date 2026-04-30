@@ -18,4 +18,5 @@ git stash you can switch the branch.
 git pop - bring back changes.
 git stash apply- apply changes and kept them in stash
 
-Rebase:
+Rebase: Alternative to merging 
+        clean up tool (clean up commits)
