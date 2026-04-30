@@ -26,3 +26,6 @@ Git is a software and github is a service to host git online
 github -> collaboration + backup + opensource
 
 Setup SSH keys to connect with github, github uses SSh to allow you to push code password based code push is jot allowed 
+
+GITHUB Features -
+Adding collaborator's , Readme file, mark down format, adding gists, code spaces, dev container 
