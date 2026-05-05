@@ -30,7 +30,7 @@ Setup SSH keys to connect with github, github uses SSh to allow you to push code
 GITHUB Features -
 Adding collaborator's , Readme file, mark down format, adding gists, code spaces, dev container 
 
-//
+//Basic Git Concepts
 Repository (repo) → Project folder tracked by Git
 Commit → Snapshot of changes
 Branch → Separate line of development
