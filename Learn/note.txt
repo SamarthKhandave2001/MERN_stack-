@@ -31,3 +31,10 @@ GITHUB Features -
 Adding collaborator's , Readme file, mark down format, adding gists, code spaces, dev container 
 
 //
+Repository (repo) → Project folder tracked by Git
+Commit → Snapshot of changes
+Branch → Separate line of development
+Merge → Combine branches
+Clone → Copy repo from remote to local
+Push → Upload local changes to GitHub
+Pull → Download updates from GitHub
