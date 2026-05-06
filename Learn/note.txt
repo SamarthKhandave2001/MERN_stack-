@@ -42,3 +42,5 @@ Pull → Download updates from GitHub
 Git Workflow
 Modify files
 Stage changes
+Commit changes
+Push to GitHub
