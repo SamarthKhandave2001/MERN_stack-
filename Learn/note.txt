@@ -38,3 +38,9 @@ Merge → Combine branches
 Clone → Copy repo from remote to local
 Push → Upload local changes to GitHub
 Pull → Download updates from GitHub
+
+Git Workflow
+Modify files
+Stage changes
+Commit changes
+Push to GitHub
