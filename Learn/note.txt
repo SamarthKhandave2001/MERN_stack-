@@ -40,3 +40,5 @@ Push → Upload local changes to GitHub
 Pull → Download updates from GitHub
 
 Git Workflow
+Modify files
+Stage changes
