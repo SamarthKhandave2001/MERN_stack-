@@ -44,4 +44,3 @@ Modify files
 Stage changes
 Commit changes
 Push to GitHub
-//git hub
