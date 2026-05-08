@@ -46,3 +46,8 @@ Commit changes
 Push to GitHub
   
   Common Mistakes
+
+  Forgetting to add before commit
+Working directly on main
+Not pulling before pushing
+Overwriting changes during merge conflicts
