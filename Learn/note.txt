@@ -59,7 +59,7 @@ intialize a new git Repository.
 2- Where does Git store all its metadata and version history?
 In the .git hidden folder
 3- Which command is used to create a commit in Git?
-
+git commit-m "message"
 
 
 
