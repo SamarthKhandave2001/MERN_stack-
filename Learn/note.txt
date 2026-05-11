@@ -52,3 +52,7 @@ Working directly on main
 Not pulling before pushing
 Overwriting changes during merge conflicts
 //
+
+MCQ
+1- What does the command git init do?
+intialize a new git Repository.
