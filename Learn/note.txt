@@ -56,3 +56,5 @@ Overwriting changes during merge conflicts
 MCQ
 1- What does the command git init do?
 intialize a new git Repository.
+2- Where does Git store all its metadata and version history?
+In the .git hidden folder
