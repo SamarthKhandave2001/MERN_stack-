@@ -65,7 +65,7 @@ It shows the commit history of the Repository
 5 - What is the purpose of the git merge command?
 It merge two branches together
 6 - What is a Git conflict?
-
+A situation where git cannot determine which changes to keep after merge
 
 
 
