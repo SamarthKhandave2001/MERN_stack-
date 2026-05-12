@@ -60,7 +60,17 @@ intialize a new git Repository.
 In the .git hidden folder
 3- Which command is used to create a commit in Git?
 git commit-m "message"
-
-
-
-
+4- What does the git log command do?
+It shows the commit history of the Repository
+5 - What is the purpose of the git merge command?
+It merge two branches together
+6 - What is a Git conflict?
+A situation where git cannot determine which changes to keep after merge
+7 - What does git stash do in Git?
+Saves uncommitted  changes temporarily and cleans the working directory  
+8 - Which of the following commands can be used to compare differences between two commits?
+git diff
+9 - What does git rebase do?
+It re-applies commits from one branch onto another base branch 
+10 - How do you create a Pull Request on GitHub?
+Push your branch to the Repository and click "New Pull Request"
