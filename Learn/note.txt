@@ -66,6 +66,7 @@ It shows the commit history of the Repository
 It merge two branches together
 6 - What is a Git conflict?
 A situation where git cannot determine which changes to keep after merge
+7 - What does git stash do in Git?
 
 
 
