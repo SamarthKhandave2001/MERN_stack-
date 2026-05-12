@@ -62,6 +62,7 @@ In the .git hidden folder
 git commit-m "message"
 4- What does the git log command do?
 It shows the commit history of the Repository
+5 - What is the purpose of the git merge command?
 
 
 
