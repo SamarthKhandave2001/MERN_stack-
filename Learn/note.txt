@@ -73,3 +73,4 @@ git diff
 9 - What does git rebase do?
 It re-applies commits from one branch onto another base branch 
 10 - How do you create a Pull Request on GitHub?
+Push your branch to the Repository and click "New Pull Request"
