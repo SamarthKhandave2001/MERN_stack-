@@ -72,4 +72,4 @@ Saves uncommitted  changes temporarily and cleans the working directory
 git diff
 9 - What does git rebase do?
 It re-applies commits from one branch onto another base branch 
-
+10 - How do you create a Pull Request on GitHub?
