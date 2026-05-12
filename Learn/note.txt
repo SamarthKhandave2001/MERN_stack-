@@ -61,7 +61,7 @@ In the .git hidden folder
 3- Which command is used to create a commit in Git?
 git commit-m "message"
 4- What does the git log command do?
-
+It shows the commit history of the Repository
 
 
 
