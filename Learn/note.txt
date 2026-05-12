@@ -64,6 +64,8 @@ git commit-m "message"
 It shows the commit history of the Repository
 5 - What is the purpose of the git merge command?
 It merge two branches together
+6 - What is a Git conflict?
+
 
 
 
