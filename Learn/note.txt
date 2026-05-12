@@ -70,5 +70,6 @@ A situation where git cannot determine which changes to keep after merge
 Saves uncommitted  changes temporarily and cleans the working directory  
 8 - Which of the following commands can be used to compare differences between two commits?
 git diff
+9 - What does git rebase do?
 
 
