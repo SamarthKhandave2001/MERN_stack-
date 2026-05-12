@@ -68,6 +68,7 @@ It merge two branches together
 A situation where git cannot determine which changes to keep after merge
 7 - What does git stash do in Git?
 Saves uncommitted  changes temporarily and cleans the working directory  
+8 - Which of the following commands can be used to compare differences between two commits?
 
 
 
