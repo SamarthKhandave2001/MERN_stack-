@@ -1,1 +1,2 @@
 NPM - Node Package Manager helps ypu to install all the library which are JavaScript Friendly.
+NPX - Node Package executer Which helps ypu to execute packages.
