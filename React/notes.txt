@@ -1,3 +1,5 @@
 NPM - Node Package Manager helps ypu to install all the library which are JavaScript Friendly.
 NPX - Node Package executer Which helps ypu to execute packages.
 Package.json is a centrlized index of all the application
+
+React is SPA "Single Page Application"
