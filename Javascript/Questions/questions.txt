@@ -1,1 +1,2 @@
 1. What's the difference between undefined and null?
+undefined is a special value JavaScript assigns automatically when:
