@@ -6,3 +6,5 @@ When accessing a nonexistent property of an object
 The JavaScript engine generates undefined automatically
 
 null is an assignment value, set deliberately to represent "no value", "empty", or the intention for something to be blank
+t means the developer wants this slot to hold nothing
+Unlike undefined, JavaScript never assigns null automatically
