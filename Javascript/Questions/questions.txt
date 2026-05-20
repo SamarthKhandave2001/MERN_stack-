@@ -10,3 +10,4 @@ t means the developer wants this slot to hold nothing
 Unlike undefined, JavaScript never assigns null automatically
 
 What does the && operator do?
+The logical AND operator (&&) evaluates expressions from left to right
