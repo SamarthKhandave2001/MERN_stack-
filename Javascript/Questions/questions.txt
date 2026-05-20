@@ -8,3 +8,9 @@ The JavaScript engine generates undefined automatically
 null is an assignment value, set deliberately to represent "no value", "empty", or the intention for something to be blank
 t means the developer wants this slot to hold nothing
 Unlike undefined, JavaScript never assigns null automatically
+
+What does the && operator do?
+The logical AND operator (&&) evaluates expressions from left to right
+It returns the first value that is falsy (false, 0, "", null, undefined, NaN)
+If all values are truthy, it returns the last value
+This is called "short-circuit evaluation"—it stops as soon as it hits a falsy value
