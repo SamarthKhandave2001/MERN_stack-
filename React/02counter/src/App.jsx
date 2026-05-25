@@ -11,10 +11,10 @@ let counter = 15
   return (
     <>
       <h1>React Learning {counter} </h1>
-      <h2> Counter Value</h2>
+      <h2> Counter Value {counter}</h2>
       <button>Remove Value</button>  {"   "}
       <button>Add Value</button>
-      <p> Footer: </p>
+      <p> Footer: {counter} </p>
     </>
   )
 }
