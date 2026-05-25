@@ -12,7 +12,7 @@ function App() {
       <h2> Counter Value</h2>
       <button>Remove Value</button>
       <button>Add Value</button>
-      <button> Footer</button>
+      <p> Footer: </p>
     </>
   )
 }
