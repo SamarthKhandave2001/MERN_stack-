@@ -5,4 +5,4 @@ Package.json is a centrlized index of all the application
 React is SPA "Single Page Application"
 
 React Fiber Architecture
-React fiber is ongoing reimplemenation of React core algorithm
+React fiber is ongoing reimplemenation of React core algorithm. It is the culmination over two years of research by the react team.
