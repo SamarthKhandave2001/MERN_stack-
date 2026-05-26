@@ -8,7 +8,18 @@ function App() {
 
   return (
     <>
-     <h1 className="bg-green-500 text-3xl"> A BG Changer App with Vite </h1>
+    <div className= 'w-full h-screen duration-300 bg-black' > 
+    <div className='fixed flex flex-wrap justify-center bottom-12 inset-x px-2'>
+  <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl'>  
+
+<button> test </button>
+<button> New</button>
+
+
+</div>
+      </div>
+      </div>
+
     </>
   )
 }
