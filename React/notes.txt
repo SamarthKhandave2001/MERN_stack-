@@ -3,3 +3,5 @@ NPX - Node Package executer Which helps ypu to execute packages.
 Package.json is a centrlized index of all the application
 
 React is SPA "Single Page Application"
+
+React Fiber Architecture
