@@ -16,12 +16,10 @@ function changeColor(color){
   <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl'>  
 
 <button onClick={() => changeColor('red')}
-className='outline-none px-4 py-1 rounded-full  shadow-lg text-black'> test</button>
+className='outline-none px-4 py-1 rounded-full  shadow-lg text-black'> RED</button>
 
-<button className='outline-none px-4 py-1 rounded-full  shadow-lg text-black'> test2</button>
-
-
-<button className='outline-none px-4 py-1 rounded-full  shadow-lg text-black'> test3</button>
+<button    onClick={() => changeColor('blue')} 
+className='outline-none px-4 py-1 rounded-full  shadow-lg text-black'> Blue</button>
 
 </div>
       </div>
