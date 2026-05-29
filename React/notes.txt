@@ -22,3 +22,10 @@ JSX = JavaScript XML
 Return single parent element
 Use className instead of class
 Use {} for JavaScript expressions
+Props
+
+Props are used to pass data from parent to child component.
+
+function User(props) {
+  return <h1>{props.name}</h1>;
+}
