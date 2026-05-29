@@ -6,3 +6,19 @@ React is SPA "Single Page Application"
 
 React Fiber Architecture
 React fiber is ongoing reimplemenation of React core algorithm. It is the culmination over two years of research by the react team.
+//
+1. What is React?
+
+React is a JavaScript library used to build reusable UI components for Single Page Applications (SPA).
+
+Key Features
+Component-based architecture
+Virtual DOM
+Reusable components
+One-way data binding
+Fast rendering using diffing algorithm
+
+JSX = JavaScript XML
+Return single parent element
+Use className instead of class
+Use {} for JavaScript expressions
