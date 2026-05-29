@@ -19,3 +19,6 @@ One-way data binding
 Fast rendering using diffing algorithm
 
 JSX = JavaScript XML
+Return single parent element
+Use className instead of class
+Use {} for JavaScript expressions
