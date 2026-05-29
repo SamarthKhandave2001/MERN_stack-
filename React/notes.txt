@@ -17,3 +17,5 @@ Virtual DOM
 Reusable components
 One-way data binding
 Fast rendering using diffing algorithm
+
+JSX = JavaScript XML
