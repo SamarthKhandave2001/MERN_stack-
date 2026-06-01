@@ -22,7 +22,7 @@ JSX = JavaScript XML
 Return single parent element
 Use className instead of class
 Use {} for JavaScript expressions
-Props
+//Props
 
 Props are used to pass data from parent to child component.
 
