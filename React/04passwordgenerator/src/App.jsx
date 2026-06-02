@@ -4,8 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   const [length, setLength] = useState(8)
+  const [numberAllowed, setNumberAllowed] = useState(false)
+  const [symbolAllowed, setSymbolAllowed] = useState(false)
+  const[characterAllowed, setCharacterAllowed] = useState(false)
+  const [password, setPassword] = useState('')
 
   return (
 
