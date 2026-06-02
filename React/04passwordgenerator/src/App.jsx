@@ -36,6 +36,19 @@ className = 'outline-none w-full py-1 px-3' placeholder='password' readOnly />
 </div>
 
 </div>
+<div className='flex text-sm gap-x-2'>
+<div className='flex items-center gap-x-1'>
+<input type='checkbox'
+defaultChecked={numberAllowed}
+onChange={() => {setNumberAllowed((prev) => !prev)}}
+name=''
+id=''/>
+<label htmlFor='number'>Numbers</label>
+
+</div>
+
+
+</div>
 
   </div>
     </>
