@@ -13,7 +13,11 @@ function App() {
   const generatePassword = (() => {
 
     let pass = ""
-    let str = 
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+      if(numberAllowed) str += "0123456789"
+      if(symbolAllowed) str += "!@#$%^&*()_+"
+      if(characterAllowed) str += "abcdefghijklmnopqrstuvwxyz"
   })
   
 
