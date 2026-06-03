@@ -18,6 +18,9 @@ function App() {
       if(numberAllowed) str += "0123456789"
       if(symbolAllowed) str += "!@#$%^&*()_+"
       if(characterAllowed) str += "abcdefghijklmnopqrstuvwxyz"
+      for(let i = 1; i < length; i++){
+        const char = math.floor(math.random() * str.length+1)
+      }
   })
   
 
