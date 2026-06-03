@@ -33,6 +33,7 @@ generatePassword()
 
   const copyPasswordToClipboard = () => {
     window.navigator.clipboard.writeText(password)
+     alert("Password copied!");
   }
   
 
