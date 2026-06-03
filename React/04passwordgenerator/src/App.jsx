@@ -10,7 +10,11 @@ function App() {
   const[characterAllowed, setCharacterAllowed] = useState(false)
   const [password, setPassword] = useState('')
 
-  const generatePassword = () => {
+  const generatePassword = (() => {
+
+    let pass = ""
+    let str = 
+  })
   
 
   return (
