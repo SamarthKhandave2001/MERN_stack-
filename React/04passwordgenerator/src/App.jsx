@@ -10,6 +10,23 @@ function App() {
   const[characterAllowed, setCharacterAllowed] = useState(false)
   const [password, setPassword] = useState('')
 
+  const generatePassword = (() => {
+
+    let pass = ""
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+      if(numberAllowed) str += "0123456789"
+      if(symbolAllowed) str += "!@#$%^&*()_+"
+      if(characterAllowed) str += "abcdefghijklmnopqrstuvwxyz"
+      for(let i = 1; i < length; i++){
+        const char = math.floor(math.random() * str.length+1)
+        pass += str.charAt(char)
+      }
+
+      setPassword(pass)
+  }, [length, numberAllowed, symbolAllowed, characterAllowed])
+  
+
   return (
 
     <>
