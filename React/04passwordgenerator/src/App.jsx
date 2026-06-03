@@ -30,6 +30,11 @@ function App() {
 generatePassword()
 
   }, [length, numberAllowed, symbolAllowed, characterAllowed])
+
+  const copyPasswordToClipboard = () => {
+    window.navigator.clipboard.writeText(password)
+     alert("Password copied!");
+  }
   
 
   return (
@@ -37,12 +42,19 @@ generatePassword()
     <>
   <div className='w-full max-w-md mx-autom shadow-md rounded-lg px-4 py-3 my-8 bg-gray-800 text-orange-500'> 
     <h1 className= 'text-white  mb-2 text-center my-3'>Password Generator</h1>
+  
 <div className='flex shadow rounded-lg overflow-hidden mb-4'>
 <input type="text" value={password}
 className = 'outline-none w-full py-1 px-3' placeholder='password' readOnly />
 
-<button className ='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0' >copy</button>
+<button onClick={copyPasswordToClipboard} className ='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0' >copy</button>
   </div>
+  <button
+  onClick={generatePassword}
+ className="bg-orange-400 hover:bg-orange-300 text-white font-semibold px-4 py-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
+>
+  Generate Password
+</button>
 <div className='flex text-sm gap-x-2'>
 <div className='flex items-center gap-x-1'>
   <input type="range"
