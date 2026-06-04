@@ -49,7 +49,7 @@ className = 'outline-none w-full py-1 px-3' placeholder='password' readOnly />
 
 <button onClick={copyPasswordToClipboard} className ='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0' >copy</button>
   </div>
-  <button
+  <button   //button
   onClick={generatePassword}
  className="bg-orange-400 hover:bg-orange-300 text-white font-semibold px-4 py-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
 >
