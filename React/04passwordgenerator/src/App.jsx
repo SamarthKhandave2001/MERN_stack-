@@ -16,7 +16,7 @@ function App() {
 
   if (numberAllowed) str += "0123456789";
   if (symbolAllowed) str += "!@#$%^&*()_+";
-  if (characterAllowed) str += "abcdefghijklmnopqrstuvwxyz";
+  if (characterAllowed) str += "abcdefghijklmnopqrstuvwxyz";   //checking if the user wants to include lowercase characters and adding them to the string of possible characters
 
   for (let i = 1; i <= length; i++) {
     const char = Math.floor(Math.random() * str.length);
