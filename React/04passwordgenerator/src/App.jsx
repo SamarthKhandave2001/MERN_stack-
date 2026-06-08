@@ -14,7 +14,7 @@ function App() {
   let pass = "";
   let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  if (numberAllowed) str += "0123456789";
+  if (numberAllowed) str += "0123456789"; //checking if the user wants to include numbers and adding them to the string of possible characters
   if (symbolAllowed) str += "!@#$%^&*()_+";
   if (characterAllowed) str += "abcdefghijklmnopqrstuvwxyz";   //checking if the user wants to include lowercase characters and adding them to the string of possible characters
 
