@@ -1,6 +1,9 @@
 import React from 'react'
 
-function InputBox(){
+function InputBox({
+    label,
+    amount,
+ } )  {
     return(
         <div>InputBox</div>
     )
