@@ -12,7 +12,13 @@ function InputBox({
     className = "",
  } )  {
     return(
-        <div>InputBox</div>
+        <div className={`bg-white p-3 rounded text-sm flex ${className}`}>  
+        <div className="w-1-2">
+            <label className="text-black/40 mb-2 inline-block">{label}</label>
+            <input 
+            type = "text" ></input>
+        
+        </div>
     )
 }
 
