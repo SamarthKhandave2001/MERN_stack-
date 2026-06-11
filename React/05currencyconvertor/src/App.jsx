@@ -11,6 +11,22 @@ function App() {
   const [from, setFrom] = useState("usd");
   const [to, setTo] = useState("inr");
   const[convertedAmount, setConvertedAmount] = useState(0);
+
+  const currencyInfo = useCurrencyInfo(from);
+
+  const options = Object.keys(currencyInfo);
+
+const swap = () => {
+  setFrom(to);
+  setTo(from);
+  setAmount(convertedAmount);
+  setConvertedAmount(amount);
+}
+
+const convert = () => {
+  setConvertedAmount((amount * currencyInfo[to]).toFixed(2));
+}
+
   return (
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
@@ -19,7 +35,10 @@ function App() {
           "url('https://images.pexels.com/photos/4497591/pexels-photo-4497591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
       }}
     >
-      <h1 className="bg-red-200 p-4">Test Tailwind</h1>
+<div className='w-full'>
+  <div className='w-full max-w-md mx-auto border border-gray-60 riunded-lg p-5 backdrop-blur-sm bg-white/30'>
+</div>
+    </div>
     </div>
   );
 }
