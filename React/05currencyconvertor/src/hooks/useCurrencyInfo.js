@@ -12,7 +12,7 @@ currency-api@1/latest/currencies/${currency}.json`)
 .then(data => setData(data[currency]))
 }, [currency]);
 
-
+return data;
 }
 
 
