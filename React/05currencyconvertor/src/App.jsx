@@ -2,6 +2,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './app.css'
 
+import useCurrencyInfo from './hooks/useCurrencyInfo';
+import {InputBox} from './components/index.js';
+import { useState } from 'react';
+
 
 
 
@@ -37,6 +41,27 @@ const convert = () => {
     >
 <div className='w-full'>
   <div className='w-full max-w-md mx-auto border border-gray-60 riunded-lg p-5 backdrop-blur-sm bg-white/30'>
+
+  <form onSubmit={(e) => {
+    e.preventDefault();
+    convert();
+  }}>
+
+    <div className='w-full mb-1'>
+      <InputBox
+      label="From"
+      amount={amount}
+      onAmountChange={setAmount}
+      onCurrencyChange={(currency) => {
+
+      }}
+      selectedCurrency={from}
+      currencies={options}
+      />
+    </div>
+      
+  </form>
+
 </div>
     </div>
     </div>
