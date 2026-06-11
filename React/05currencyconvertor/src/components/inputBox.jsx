@@ -1,4 +1,4 @@
-import React,  {useId}  from 'react'
+import React, { useId } from 'react'
 
 function InputBox({
     label,
@@ -13,6 +13,7 @@ function InputBox({
 }) {
 
     const id = useId();
+
     return (
         <>
             <div className={`bg-white p-3 rounded text-sm flex ${className}`}>
@@ -22,10 +23,10 @@ function InputBox({
                     </label>
 
                     <input
-                    id={id}
+                        id={id}
                         type="number"
-                               className="outline-none w-full bg-transparent py-1.5"
-                        placeholder='Amount'
+                        className="outline-none w-full bg-transparent py-1.5"
+                        placeholder="Amount"
                         disabled={amountDisabled}
                         value={amount}
                         onChange={(e) =>
@@ -33,26 +34,24 @@ function InputBox({
                         }
                     />
                 </div>
-                <div classname='w-1/2 flex flex-wrap justify-end text-right'>
-                
-                <p className="text-black/40 mb-2 w-full">Currency Type</p>
 
-                <select className='rounded-lg px-1 bg-gray-100 cursor-pointer outline-none'
-                value={selectedCurrency}
-                onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
-                disabled={currencyDisabled}
-                >
-                    {currencies.map((currency) => (
-                        <option key={currency} value={currency}>
-                            {currency.toUpperCase()}
-                        </option>
-                    ))}
-                </select>
+                <div className="w-1/2 flex flex-wrap justify-end text-right">
+                    <p className="text-black/40 mb-2 w-full">Currency Type</p>
 
-                
-                
-                
-                
+                    <select
+                        className="rounded-lg px-1 bg-gray-100 cursor-pointer outline-none"
+                        value={selectedCurrency}
+                        onChange={(e) =>
+                            onCurrencyChange && onCurrencyChange(e.target.value)
+                        }
+                        disabled={currencyDisabled}
+                    >
+                        {currencies.map((currency) => (
+                            <option key={currency} value={currency}>
+                                {currency.toUpperCase()}
+                            </option>
+                        ))}
+                    </select>
                 </div>
             </div>
         </>

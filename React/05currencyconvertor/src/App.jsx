@@ -51,10 +51,8 @@ const convert = () => {
       <InputBox
       label="From"
       amount={amount}
-      onAmountChange={setAmount}
-      onCurrencyChange={(currency) => {
-
-      }}
+      onAmountChange={(amount) => setAmount(amount)}
+      onCurrencyChange={(currency) => {setFrom(currency)}}
       selectedCurrency={from}
       currencies={options}
       />
