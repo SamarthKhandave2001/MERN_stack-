@@ -63,6 +63,22 @@ const convert = () => {
           Swap
         </button>
         </div>
+<div className='w-full mb-1'>
+      <InputBox
+      label="To"
+      amount={convertedAmount}
+      amountDisabled={true}
+      onAmountChange={(amount) => setConvertedAmount(amount)}
+      onCurrencyChange={(currency) => {setTo(currency)}}
+      selectedCurrency={to}
+      currencies={options}
+      />
+    </div>
+
+    <button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+      Convert  {from.toUpperCase()} to {to.toUpperCase()}
+    </button>
+
   </form>
 
 </div>
