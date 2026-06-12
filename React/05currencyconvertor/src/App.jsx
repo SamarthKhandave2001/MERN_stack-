@@ -76,7 +76,7 @@ const convert = () => {
     </div>
 
     <button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-      Convert
+      Convert  {from.toUpperCase()} to {to.toUpperCase()}
     </button>
 
   </form>
