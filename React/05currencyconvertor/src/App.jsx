@@ -58,7 +58,10 @@ const convert = () => {
       />
     </div>
       <div className='relative  w-full h-0.5'>
-        <button></button>
+        <button onClick={swap}
+        className='absolute -top-3 left-1/2 -translate-x-1/2 bg-gray-300 p-1 rounded-full text-sm text-gray-700 hover:bg-gray-400 transition-colors duration-300'>
+          Swap
+        </button>
         </div>
   </form>
 
