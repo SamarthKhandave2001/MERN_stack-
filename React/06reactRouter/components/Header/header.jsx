@@ -11,7 +11,7 @@ function Header() {
                             src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                             className="mr-3 h-12"
                             alt="Logo"
-                        />
+                        />   //image path 
                     </Link>
                 </div>
             </nav>
