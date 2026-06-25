@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Layout from './Layout.jsx'
-import Home from '../components/Home/Home.jsx'
+import Home from "./components/Home/Home.jsx";
 import App from './App.jsx'
 import './index.css'
 import About from '../components/About/About.jsx'
