@@ -16,7 +16,7 @@ import {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>  //layout component will be rendered for the root path
-      <Route index element={<Home />} />
+      <Route index element={<Home />} />  //home component will be rendered for the index route
       <Route path="about" element={<About />} />
     </Route>
   )
