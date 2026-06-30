@@ -5,6 +5,7 @@ import './index.css';
 import Layout from './Layout.jsx';
 import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 import {
   createBrowserRouter,
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Layout />}>  //layout component will be rendered for the root path
       <Route index element={<Home />} />  //home component will be rendered for the index route
       <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
     </Route>
   )
 );
