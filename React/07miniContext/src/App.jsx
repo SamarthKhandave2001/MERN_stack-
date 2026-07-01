@@ -9,11 +9,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <UserContextProvider>
       <h1>React Video For Context API</h1>
       <Login />
       <Profile />
-    </>
+    </UserContextProvider>
   )
 }
 
