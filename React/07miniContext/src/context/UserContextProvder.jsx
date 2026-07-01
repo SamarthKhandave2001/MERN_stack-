@@ -6,7 +6,7 @@ const UserContextProvider = ({childern}) => {
 const [user, setUser] = UseState('null')
 
 return (
-    <UserContext.Provider >
+    <UserContext.Provider value={{user, setUser}}>
 
         {childern}
     </UserContext.Provider>
