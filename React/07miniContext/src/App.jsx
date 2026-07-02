@@ -13,7 +13,7 @@ function App() {
     <UserContextProvider>
       <h1>React Video For Context API</h1>
       <Login />  // This component will consume the context and display user information
-      <Profile />
+      <Profile />  // This component will also consume the context and display user information
     </UserContextProvider>
   )
 }
