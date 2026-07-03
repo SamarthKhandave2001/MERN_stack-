@@ -6,7 +6,7 @@ const UserContextProvider = ({ children }) => {
 
     return (
         <UserContext.Provider value={{ user, setUser }}>
-            {children}  
+            {children}  // Render the children components that will have access to the context value
         </UserContext.Provider>
     );
 };
