@@ -2,8 +2,8 @@ import React,{useState, useContext} from 'react';
 import UserContext from '../context/UserContext';
 
 function Login(){
-const [username, setUsername] = React.useState('');
-const [password, setPassword] = React.useState('');
+const [username, setUsername] = React.useState('');  // Initialize username state
+const [password, setPassword] = React.useState('');  // Initialize password state
 
 const {setUser} = useContext(UserContext);
 
