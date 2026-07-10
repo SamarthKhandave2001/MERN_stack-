@@ -11,7 +11,7 @@ function App() {
      <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
-    <h2>Welcome to TO-DO</h2>
+   
     <input type="text" placeholder='Enter your task' />
     <input type="submit" value="Add Task" />
     </>
