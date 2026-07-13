@@ -13,6 +13,7 @@ function App() {
     </h1>
     <h2>New Local Todo</h2>
     <p>loream ipsum dolor sit amet</p>
+    <h3>Task List</h3>
    
     <input type="text" placeholder='Enter your task' />
     <input type="submit" value="Add Task" />
