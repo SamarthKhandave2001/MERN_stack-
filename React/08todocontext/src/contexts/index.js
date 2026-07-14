@@ -15,8 +15,11 @@ todos: [
 
 addTodo: (todo) => {},
 updateTodo: (id, todo) => {},
+deleteTodo: (id) => {},
+toggleTodo: (id) => {},
 
 
 
 
     })
+export const useTodo = () => useContext(TodoContext)
