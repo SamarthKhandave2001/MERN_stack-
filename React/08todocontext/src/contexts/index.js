@@ -22,5 +22,6 @@ toggleTodo: (id) => {},
 
 
     })
-export const useTodo = () => useContext(TodoContext)
+export const useTodo = () => {
 return useContext(TodoContext)
+}
