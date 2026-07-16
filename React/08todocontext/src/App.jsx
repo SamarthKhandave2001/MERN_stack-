@@ -48,6 +48,11 @@ if(todos && todos.length>0) {
 }, [])
 
 
+useEffect(() => {
+  localStorage.setItem('todos', JSON.stringify(todos))
+}, [todos])
+
+
 
   return (
     <TodoProvider
